@@ -1,0 +1,235 @@
+[
+    {
+        "id": 1,
+        "topic":"Basic Training",
+        "issue":"Most people don't know when to start training",
+        "solutions":"Start training you puppy ASAP",
+        "thoughts":"Puppies are primed to learn, start the basic training right away. At 8 to ten weeks old is great. Anything before 8 weeks old the pup should still be with it's mother learning basic dog mantallity (how to be a dog). Start by naming the dog and teaching it it's name, start a bathroom shedule and be consistant, teaching your pup sit, stay, down, and leave it early will be major life savers for you."
+    },
+    {
+        "id":2,
+        "topic":"Hazardous Household Items",
+        "issue":"People are sometimes unaware of substances around the house that are harmful or poisonous to their dog.",
+        "solutions":"Keep an eye out for: actaminophen, antidiarrheal products, aspirin, batteries, bleach, breath strips, chocolate citrus-based cleaners, cough syrups and lozenges, diet pills and supplements, fabric sofetener sheets, flea and tick products, glues, herbal supplements, play-doh or clay, household-cleaners, ibuprofen and other medications sold over the counter, lead items (such as paints,drapery weights, bottle cork foils, or fishing weights.), Marijuana, cocaine and other recreational drugs, matches, mothballs, mouthwash, pennies, phenol-based cleaners, potpourri, perscription medications, mouse and rat traps or poisions, rubbing alcohol, tobacco and nicotime products, and any other objects or substances that you think maybe unsafe.",
+        "thoughts":"Pooches are like toddlers everything in the house goes in the mouth and tasting is a major k-9 thing to do. You have to think ahead because if you are unaware of what is around your house be sure your furry friend will find it and the results can be fatal."
+    },
+    {
+        "id":3,
+        "topic":"Munching on grass",
+        "issue":"Sometimes dogs eat grass when they are sick to their stomach. When a dog feels nauseated, their first instinct is to clear their stomach of what ever is not good. Grass acts like ipecac, helping your dog vomit.",
+        "solutions":"If you notice your dog eating grass do not stop them this is their way of getting it out. You should help by: taking away the food bowl, treats, and water for a while. Monitor your dog carefully and give just enough water to keep hydrated as you notice activity returning to normal. Do this in small amounts during the day. Return the food when you are sure the dogs stomach is stablized. If you are unsure call your vet immediatly.",
+        "thoughts":"If the dog continues to eat grass or vomit, call your vet immediately there is some medical reason your dog is feeling queasy. Do not ignore the warning sign."
+    },
+    {
+        "id":4,
+        "topic":"How can I help my dog it's with Anxiety or Nervousness?",
+        "issue":"Loss of appetite, Crying, Eliminating in wrong place, or Never leaving your side",
+        "solutions":" -For loss of appetite: Sit with your dog and try hand feeding while gently talking to your dog. -For crying: Take your dog to a safe room or kennel, set up a play pen, do not baby your dog. Petting or making soothing sounds at this time will send the wrong message. Provide distractions but allow dog to see things are alright and that the crying does not please you. -Eliminating in the wrong place: Your dog will not want to go potty in it's crate. Dogs are careful to keep neat beds, and they will work very hard not to soil their safe zone.Do regular potty breaks and keep dog in its kennel until you see some change in behavior. -Never leaving your side: You will not be able to spend 24hours a day with your dog your choices are to keep your dog in a kennel or crate, find a dog day care, put items around that have your scent that your dog can play with this will comfort your dog until you return.",
+        "thoughts":"You must resist the urge to console your dog. Do not pick up and coddle the dog, it will think you you are praising it and that there is something to be afraid of. You must act as if nothing is wrong and show confidence show the dog that you are both having fun. Get as close as you can to what is scaring your dog and show that it is alright. Build your dogs confidence slowly in this area until the fear is gone."
+    },
+    {
+        "id":5,
+        "topic":"Chewing on everything!",
+        "issue":"Chewing is a puppy's way of exploring the world by mouth. Taste and smell are strong dog senses. Remember that babies do the same thing. Chewing can also be signs of bordom if your dog is not getting enough exercise or that there is a lack of approriate chew toys. How to stop this? ",
+        "solutions":"First,apply a stop-chew solution to items or furniture being chewed; Second, provide your dog with safe chew toys and reward when the dog chews the correct toys; Third, be sure your grown dog is getting enogh exercise and playtime so he does not resort to chewing your valuables",
+        "thoughts":"When you see your dog chewing something it should not take it out of its mouth and at the same time give a firm NO, then replace the item with the appropriate chew toy, then praise dog for chewing the right item."
+    },
+    {
+        "id":6,
+        "topic":"Training a service dog",
+        "issue":"At age two these dogs are sent for special training. They learn tasks that will help them in the (real world) such as opening doors, retrieving objects, aleeting  humans to sounds such as doorbells or smoke alarms, and guiding people around obstacles. Only a handful of dogs pass the training program and show a temperment to be a service dog. ",
+        "solutions":"the most popular breeds of k-9's for service dogs are: Labradors, German Shepherds, Golden Retrievers,or Collies. Not every dog has the disposition to work as a service dog. Be sure you know your dogs temperment.",
+        "thoughts":"Training a dog for a service dog is hard and expensive work. How is your dogs temperment? How egar to please is your pooch? When you say time to work, does your dog immediately drop all pretense of play? How is your dogs behavior around other people? When distractions occur does your dog remain focused? These are only a few questions to ask yourself but they are a major start."
+    },
+    {
+        "id":7,
+        "topic":"How to choose a vet",
+        "issue":"I don't want just anyone taking care of my dogs health, what do I do",
+        "solutions":"Seek recommendations from friends and family member who have pets of their own. Visit the vets office without the dog and observe how the place runs and how the vet operates. Discuss your questions, thoughts, and concerns with the veterinarian",
+        "thoughts":"A veterinarian is an adviser, a medical expert, and someone you can rely on for emergency care for your pet and advice for yourself. You must feel comfortable talking to and relating issues to your vet. Building a relationship of trust between yourself and your vet, plus your pet and your vet is key."
+    },
+    {
+        "id":8,
+        "topic":"What if my dog has swallowed something?",
+        "issue":"Some dogs have a reputation for swallowing: large, unusually shaped, edible or not objects around the house or yard.",
+        "solutions":"Signs of intestinal obstruction my not be visible for days or even weeks. Symptoms vary depending on the location and severity of the obstruction. If your dog has swallowed an object or objects or if you are missing something and you suspect that your dog has swallowed something: call your vet immediately and take your dog for an X-ray.",
+        "thoughts":"Call your vet immediately if you notice any of these signs: vomiting, diarrhea, loss of appetite, lethargy, depression, weakness, dehydration, fever or below-normal body temperature, or shock."
+    },
+    {
+        "id":9,
+        "topic":"Obesity in dogs",
+        "issue":"Obesity can create serious health issues for your dog.",
+        "solutions":"Keep your dog fit with reqular and constant exercise, feed your dog the right foods, be aware of treat size and work with your vet on how much would resonably fit with your dogs diet. You can control your dogs calorie intake by carefully controlling what and how much you feed. Be sure all family members are informed not to feed dog extra snacks.",
+        "thoughts":"Our dogs can easily become overweight, generally because we use food for treats and go way overboard with it. The weight gain may seem gradual to us, but for a dog whose weight is 20pound dog to gain two pound it is 10 percent of said dogs body weight. Excess weight can reduce your dog's lifespan by as much as 20 percent. Obesity is dangerous because it can exacerbate other serious medical conditions like hip dysplasia, arthritis, diabetes, or respiratory issues. "
+    },
+    {
+        "id":10,
+        "topic":"Getting use to a collar or walking on a leash.",
+        "issue":"My dog fights the collar and runs from the leash.",
+        "solutions":"relate walks and time outside to the leash, never leave the home for any reason without first putting on the leash. Even for bathroom schedule. Never allow your dog to drag you with the leash. If your dog pulls stop and stand your ground til the dog stops and returns to your side.",
+        "thoughts":"It is also helpful to sometimes allow your dog to wear the collar and leash inside. Let them drag it around for a while (under your supervision of course so they don't get tangled and strangle themselves.) Once they are use to dragging the leash behind them you can pick it up and lead them around for a while. Practice control walking at all times with the leash. Never let the dog lead. If the dog passes you stop where you are and do not move until the dog returns to your side. Praise the dog and start the walk again."
+    },
+    {
+        "id":11,
+        "topic":"Ticks on my dog",
+        "issue":"My dog has Ticks on him.",
+        "solutions":"Remove the Ticks IMMEDIATELY!!: Enlist one of your family members of friends to help you by holding the dog still, Light a match - blow it out -  and apply the match heat to the tick. The tick will release its head so you can quickly pull it outm head and all. Deposit the tick in an sahtray or small dish and burn it with a match or toss tick in fire to make sure it is dead. Remember if you only remove the body and the tick's head is still inside your dog, your dog may get and infection. If you are uncertain wheather or not you removed the entire tick see your vet to be sure.",
+        "thoughts":"IF your dog is bitten by a tick, it may start to lick its self, which can lead to hot spots that may burn and hurt. You can apply tea tree oil to a hot spot or use an over-the -counter product. If the issue continues see the vet to prevent it from becoming a skin condition."
+    },
+    {
+        "id":12,
+        "topic":"Training Tip: Practice, Praise, and Reward",
+        "issue":"Why does my dog not remember simple commands",
+        "solutions":"Dogs learn by reputition and reward for positive behavior",
+        "thoughts":"Practice a little bit at a time, but be consitant. Maybe 10 to 15 minute sessions. when your dog performs the action you desire. Praise in an excited voice and treat immediately. This will help your dog relate the praise and treat to the action and understand what you want. You must also use the command regularly to reinforce the lesson. Say you are training your dog to sit. Do it at different intervals through out the day and don't always give food treats let the dog understand that the action is to be done on command and the treat will be your praise and affection."
+    },
+    {
+        "id":13,
+        "topic":"What should my Dog Emergancy kit contain?",
+        "issue":"I'm no vet but should'nt I have something on hand?",
+        "solutions":"-Sterile gauze pads(a variety of sizes), -Strips of cloth, Bandages(self-clinging and waterproof), -Cotton balls and Cotton swabs, -Resealable Plastic bags, -Muzzle (due to an injured or scared dog may bite), -Nylon leash, -Tweezers, -Sewing needle (DO NOT try to give your dog stitches, this is for removing splinters or tick heads!), -Matches, -Antibacterial wipes or pads. -Sterile saline eye solution(for flushing out eyes only no IV's), and Artificial tear gel(to lubricate eyes after flushing/)",
+        "thoughts":"If your dog is injured you can administer basic wound care but be sure to visit your vet to be sure that all is well. Do not try to doctor major issues, you can stop bleeding and clean area but the vet is the professional and you should consult with them immediately."
+    },
+    {
+        "id":14,
+        "topic":"Why your dog guards the food bowl",
+        "issue":"My dog guards the food bowl and growls when approached",
+        "solutions":"First in formost try putting the food in you hand and hand feeding you dog. Next, sit beside your dog while he eats from the bowl. Talk to the dog while he eats, at times put your hand in the bowl and stir the food with your hand. Get up walk away and return and do it all over again. A few weeks later practice taking the food away and then hand feed for a while before returning the bowl.",
+        "thoughts":"Dogs will naturally guard the thing that are important to them. If mealtime is a main event for your dog and most every dog sees this as a main event. They will place high value on a bowl filled with food. You need to show your dog that the bowl is not responsible for the food you are."
+    },
+    {
+        "id":15,
+        "topic":"Bonding with your dog",
+        "issue":"What can I do to make my dog want to be around me?",
+        "solutions":"Building a good relationship is the secret to having a well-trained, loving dog. Relationships take work and you must invest the time and energy to bond with your dog. You must spend quality time getting to know each other. This will be training time, exercise time, just sitting around and hanging out time, play time, etc...You must be the party, dogs are social creatures by nature and they want companionship. You must give them the love and affection they desire and remember that relationships are two way streets.",
+        "thoughts":"Start bonding while your dog is young, while your dog is a puppy. They will look to you for everything. When you first bring your dog home hand feed your dog. This makes meal time special and is a perfect time to bond. Pet, scratch and groom your dog regularly and be perky while doing it. Remember your dog picks up on the chemical scent your body releases so if you are upset with someone else while you are hanging out they will not know about the other person. All they know is your scent is angry and you are in a bad mood. So be aware of your scent and body language."
+    },
+    {
+        "id":16,
+        "topic":"Basic Training",
+        "issue":"I don't know what to teach my dog first",
+        "solutions":"1st Teach your dog it's name, 2cd (lets go) command for walking or going out for bathroom breaks, 3rd (break) I use this command to release my dog from control walking to roam and releave themselves, (come) this will make sure that your dog knows to return to you on command, 4th (heel) for walking or when you want your dog to stay by your side, 5th (sit) for walking-anytime you stop- or just control, 6th (stay) this will ensure that your dog does not run off when you are occupied for a moment, 7th (mine or leave it) when it is something I want my dog to release into my hand I use the mine command or if I want them to drop something I use the leave it command, (down) for when you want your dog to lie down, 8th (off) this will let your dog know when you want him to get down of furniture, 9th (up) for when you want your dog to climb up on furniture or into cars etc., 10th (kennel) for when you want your dog to return to its kennel for sleep-a break- or even when you have to leave home.",
+        "thoughts":"These are just a few basic commands and you may find others that you will want to teach but these are good starters."
+    },
+    {
+        "id":17,
+        "topic":"Dog activities",
+        "issue":"How do I know what my dog will be good at.",
+        "solutions":"Dogs have natural talents for hunting, chasing, and swimming that should be encouraged so they will exercise. Observe you dog and watch what they do naturally then plug into these activities and find what fits your pooch. You can also study up on the breed particulars and get an idea of what is a match for your dog. It could be Agility, Swimming, Fetching, Jogging, FlyBall, Tricks, or Obedience.",
+        "thoughts":"When choosing a dog match you mantality and likes to your dog breed. If you like to run and want to run with your dog get a dog that runs a lot. If you are a couch potatoe get a dog that is low energy and not prone to require much exercise. Hunters should focus on hounds and retrievers, etc........."
+    },
+    {
+        "id":18,
+        "topic":"Soothing Teethng Issues",
+        "issue":"Puppy getting his adult teeth",
+        "solutions":"Try making these homemade frozen washcloth treats you will need: Low-sodium chicken-or beef-flavored broth, mixing bowl, and washcloths. 1.)Fill mixing bowl with broth. 2.) Soak wash cloth in broth, saturate with liquid. 3.) Gently squeeze out excess liquid. 4.) Tie each washcloth in a simple knot. 5.) Place the washcloths in the freezer on a tray. Once frozen, serve to your puppy. It will be a flavorable chewable treat just like a babies teething ring.",
+        "thoughts":"Be sure you monitor your dog with this treat do not let them run off with the washcloth and the wetness could ruin carpet, clothing, or furniture and you want to make sure the washcloth does not get chewed to little chokable pieces."
+    },
+    {
+        "id":19,
+        "topic":"Yellow spots on the Lawn",
+        "issue":"My dogs urine is ruining my lawn",
+        "solutions":"Neutralizing urine before it even touches your lawn.",
+        "thoughts":"Tomato juice is known to lessen the acidity of urinne that burns truf. Not all dogs are interested in lapping up the vegetable juice, so you may try special tablets you feed to your dog to neutralize urine. Look for (Dog urine neutralizer) on packaging of the supplements at your local pet supply store. The supplement is harmless and will protect your lawn. For curative treatment of urine spot already on your lawn, try spray products that are applied to the browned-out-area. These are biodegradable formulas containing plant extract and plant enzymes that break down dog urine and convert it into nutrients. Also to avoid yellow spots spreading everywhere, designate one area of your lawn for bathroom breaks and train your dog to use that spot."
+    },
+    {
+        "id":20,
+        "topic":"Essential Supplies for Your Dog",
+        "issue":"I don't even know what I need for my dog",
+        "solutions":"You will need two bowls (one for water and one for food), two collars and at least three leashes, identification tags for collars, food (You need to consider your budget and also the quality of the food your dog will eat), bedding (at least one kennel per dog, blankets, towels and mats), grooming tools (brush, comb nail trimmer, small toothbrush and dog toothpaste), treats and chewables and toys",
+        "thoughts":"These are only the basics you will find that alot of your shopping for your dog will revolve around what your dog likes. I have seen certain dog who would not eat certain brands of dog food and other dogs that could not eat certain food for medical reasons. Your dog will need to eat every day just like you and human food is not good for your dog so be sure to include the dogs food in the monthly budget for groceries"
+    },
+    {
+        "id":21,
+        "topic":"How to stop constant barking",
+        "issue":"The issue could be isolation and boredom, territorial protection, or fear of loud noises or strange sounds",
+        "solutions":"For isolation and boredom: try to provide lots of safe toys and rotate them on occassions to keep the play fresh, hire a dog walker to walk or run your dog to tire them out, try a dog day care or a dog play group. Territorial or Protection: Train your dog to obey the command (quiet) or you could interrupt the barking with a noise like a hand clap or air horn, Spaying or neutering can also cut down on territorial behavior. Fear of loud noises: Do not cuddle this dog, place dog in kennel and cover with a sheet leaving an opening at the bottom for air and a little light. You could also turn on some white noise like a fan or soothing music. You could get a little squirt gun and give a little squirt of water to get the dogs attention.",
+        "thoughts":"Keep in mind, barking is not all bad. It can warn you that a sstranger is approaching your home, or that something is out of the ordinary. Although unwanted barking can be a pain to you, your family and neighbors. Dogs bark as a way of expression and just like humans talk your dog will bark."
+    },
+    {
+        "id":22,
+        "topic":"When do I need to get a vet?",
+        "issue":"-Elevated temperature for more than 24 hours -Change in skin temperature -Change in skin color -Changein tongue color -Eyes are not bright; dog appears dazed -drastic behavioral changes like irritability or hyperactivity -Sluggishness or drowsiness for long periods of time -Drastic changes in bowel movements -Blood in stools -Severe or prolonged constipation or diarrhea -Urinating to much or can not urinate at all -Tenderness around the genitals -Prolonged period of vomiting -Forceful vomiting after every meal -Refusal to eat for more than twenty-four hours, or paws in mouth -Prolonged cough -Trouble breathing, especially if the breathing is noisy and rapid -Open woinds or swelling -Bite from another animal, or sting, or scratch that looks inflamed -Trouble keeping balance, walking, or standing, -A limp that does not improve after a day or two.",
+        "solutions":"If you see your dog with any of these symptoms call your vet immediately and get the guy checked out.It is better to be overly cautious in these situations than to not be cautious enough.",
+        "thoughts":"When you truely bond with your k-9 you will learn the dogs normal behavior, mantality and observe his normal skin color, tongue color, eye color, etc. This will help you also to know when something is wrong."
+    },
+    {
+        "id":23,
+        "topic":"Controling a jumping and biting dog",
+        "issue":"Dog is jumping  and Biting",
+        "solutions":"Jumping and biting are attention seeking behaviors, you must remove your attention from the dog when this happens. If you yell and push the dog away it is getting what it wants attention. The first step is to teach your dog the sit command. If the jumping and biting starts give the command to sit, then promptly ignore the dog. If it continues kennel your dog for a period of time and do not even look at the dog or speak to it. A squirt bottle or water gun is effective also this will be used with out a word just a squirt to the face will stop the action. This is where you ignore the dog and act like it is not there.",
+        "thoughts":"Biting is very serious business, if your dog bites someone you can not only lose your dog as the law will have them euthinised. But you could end up in legal trouble youself. I personally stop biting by placing my thumb in the dogs mouth on the tongue with my hand under the dogs chin. As he tries to bite down I increase the pressure on the tongue. As he eases the bite I ease the pressure. It only takes a few times before the lesson is learned."
+    },
+    {
+        "id":24,
+        "topic":"Dogs and Chocolate",
+        "issue":"Chocolate can be dangerous to your dog, it contains theobromine. This chemical is in the same family as caffeine and it is toxic to dogs. Some types of chocolate contains more theobromine than others, and some dogs are more sensitive to it than others. But even what seems like a small amont can be enough to be deadly to your dog.",
+        "solutions":"Never give a dog chocolate, and be sure any chocolate is kept out of reach. If your dog ingests chocolate, call your vet immediately. If your vet is not available contact the pet poison hot line. Your vet may suggest that you give your dog hydrogen peroxide to induce vomiting. ",
+        "thoughts":"Lots of people do not believe this to be true and it is a hard lesson for a unbeliever when it kills or sickens there dog."
+    },
+    {
+        "id":25,
+        "topic":"Dogs with Diabetes",
+        "issue":"Dogs can have diabetes just as humans, if not handled properly dogs can go blindor suffer from life threatening issues. ",
+        "solutions":"This disease can be controlled by using havits that also benefit humans:(type 1) Proper diet, exercise and constant monitoring if blood glucose levels. (type 2) Require insulin shots to manage the disease, so dogs that develop this disease need the injections. ",
+        "thoughts":"Older dogs around the age of 7 or 9 years show signs of diabetes. It is more common in females and dog obesity is always a factor. Symptoms include: Excessive thirst, irination and loss of appeitie, also loss of weight. Your dog may become lethargic and lose interest in eating completely. It is best to get to the vet and have your dog evaluated for diabetes."
+    },
+    {
+        "id":26,
+        "topic":"Confronting an aggressive dog",
+        "issue":"How can I safely confront an aggressive dog while walking my dog?",
+        "solutions":"First and fore most drop your dogs leash. This will allow your dog to defend it's self if needed. Second check your surroundings for possible weapons (I normally walk with a stick at all times). Third if the aggressive dog lunges at you break the lunge by sticking something in its path (stick, purse, brick, coat or sweater.) If your dog is defending its self do not attempt to pull your dog away. You could cause your dog or yourself to get seriously hurt. If you have maze or pepper spray, spray the offending dog. Yelling and screaming at this dog will be seen as a challenge. This is not a helpful tactic as some believe.",
+        "thoughts":"If you know a particularly aggressive dog lives on your route change routes, cross the street, when confronting said dog stand still and do not look the dog directly in the eye. Remain quiet and if the dog attacks defend yourself and your pet. During walks you should carry maze or pepperspray anyway for unforeseen issues as well as a small first aid kit and like me a stick. Comes in handy as we encounter lots of snakes around my way."
+    },
+    {
+        "id":27,
+        "topic":"Fireworks freakout",
+        "issue":"My dog becomes afraid during firework displays",
+        "solutions":"You could try giving your dog a vigorous workout and play session before the fireworks start. Also keep your dog inside during the display and as far away from the action as possible. Some people have been known to book their dog in a dog care facility during the fourth of July to get them away from the scene. Some dogs may not have any issues with the noise (THis would be mostly dog who are use to hunting and gunshots). For others the sound of fireworks are very stressful. Their hearing is a lot more acute then a humans and the sound could be very painful for them. ",
+        "thoughts":"Watch your dog for signs of stress during this event. Whining, hiding under bed or furniture, excessive pooping, excessive panting, excessive pacing, and attempting to flee the area. If possible find a queit place where the noise is muffled for your dog to spend this time. Maybe play music or turn on the tv to cover the sound. Babying your dog is a bad idea because you are showing the dog that there is something to be afraid of and reinforcing the behavior of fear."
+    },
+    {
+        "id":28,
+        "topic":"Active Exercise Time",
+        "issue":"How often and for how long should I exercise my dog?",
+        "solutions":"Toy dogs: 5 minutes twice a day, Terriers: 10 to 20 minutes two to three times a day, Retrievers and Hounds: 20 to 30 minutes three times a day.",
+        "thoughts":"Each dog is different, I generally judge by my dogs activity level. If I am jogging and my dog starts to lag behind I return the dog to the house and work out in the yard. Sometimes your dog will take a short break and join back in the exercise. To them this is play time with you. I also suggest taking your dog to dog parks and allowing them to play and run with other dogs."
+    },
+    {
+        "id":29,
+        "topic":"People food and your dog",
+        "issue":"What people food can my dog safely eat?",
+        "solutions":"Meats(cooked): Chicken, Turkey, Salmon, Liver(do not give the skin just the meat.)Sardines(boneless); Veggies: Carrots(steamed or raw), Steamed green beans, baked sweet potatoe, cooked butternut squash, pumpkin; Fruit: apple slices, bananna slices, blueberries; Other: plain yogurt, hard-boiled eggs, peanut or almond butter(be sure your dog does not have allergies to these, just like humans some can be allergic)",
+        "thoughts":"This next list is foods that are toxic to dogs: Chocolate, Caffeine and Coffee, Grapes and Raisins, Onions and Onion Powder, Garlic, Macadamia Nuts, Black Walnuts, Dairy Products(Yes this includes cheese), Licorice, Artificial Sweeteners(Xylitol) and Taffy Candies."
+    },
+    {
+        "id":30,
+        "topic":"Dog Day Care",
+        "issue":"What should I ask before choosing a daycare for my dog?",
+        "solutions":"1.In case of emergancies do you have a vet on the premises, and if not how close is the nearest vet?, 2.Do the bigger dogs play in a separate rooms from the little dogs? 3.How often are the water bowls refreshed and what is your water source?, 4.Do you have padded or carpeted floors for your play rooms?, 5.How do you evaluate your dogs for aggression?, 6.Do your provide private and/or group training services?, 7.Do you provide grooming services?, 8.Does your facility have web cams to observe dogs care and treatment?",
+        "thoughts":"A good dog daycare facility should have dogs separated by size, puppies and toy dogs should not run with the big dogs. They should have toys, couches, kennels and playgrounds for the dogs. Agility courses if they are top notch. Also places for the dogs to rest and provide some plan for emergancy medical needs. Training and grooming are also a plus. Just like children learn at their daycare your dog should be exposed to basic education at theirs."
+    },
+    {
+        "id":31,
+        "topic":"Meeting and Greeting Strangers",
+        "issue":"How should my dog be greeted by strangers?",
+        "solutions":"First you should command your dog to sit, next have the person extend a hand for your dog to sniff, then allow them to scratch your dog under its chin, you may also allow a back scratch or pat, NEVER allow someone to pet your dog on the head as some dogs see this as a threat.",
+        "thoughts":"Be sure to supervise the strangers interaction with your dog and only release your dog from the sitting position after the meet and greet are over."
+    },
+    {
+        "id":32,
+        "topic":"What does a health weight look like",
+        "issue":"Some say may dog is obese, how can I tell?",
+        "solutions":"Underweight: Ribs are visible with minimal fat cover. Bony prominences in hips and sholders are easily felt with minimal overlaying fat. Side view shows marked abdominal area and the front view shows hourglass shape. Ideal: Ribs are easily palpable with a slight fat cover. Bony prominences can be felt through a small amount of overlying fat. There is a avdominal tuck whrn viewed from the side and well proportioned waist when viewed from the front. Overweight: Ribs are difficult to feel because the fat cover is so thick. The bony structure can still be felt. Bony prominences are covered by a moderate layer of fat. There is little or no avdominal tuck or waist when viewed from the side, and the back is slightly broadened when viewed from above. A slight pot belly, or rounding of the abdomen is present. OBESE: Ribs are difficult to feel due to the thick covering of fat. Bony prominences are covered by a thick layer of fat. There is a pendulous bluge in her tummy and no waist can be seen when viewed from the side. The back is broadened when viewed from above. Fat deposits can also be seen in the face and limbs. ",
+        "thoughts":"Your vet should be able to provide you with a visual scale and diagram to help you keep track. The most basic precaution you can take is to have a diet set up with your vet and know how much to feed your dog, how much exercise is required and follow the plan and be sure to account for food treats during training."
+    },
+    {
+        "id":33,
+        "topic":"When should I hire a private trainer",
+        "issue":"My dog will not obey in group training class.",
+        "solutions":"Not all dogs respond to group classes. If your dog is a social animal and would rather get to know the other dogs instead of train. a private lesson at home may be more effective. If you hire a professional your dog can learn the basic (sit, stay, heel, down, come) and also get some socializing in a controled manner before the group class which will give you more control over your dog in the class.",
+        "thoughts":"Private trainers have proven training methods to make your dog learn and become more adaptable and suited for the group class. This will be of greater benefit as your dog will know and respond to basic commands and will have been socialized with other dogs and understand the work time/play time distinction better."
+    }
+
+
+]

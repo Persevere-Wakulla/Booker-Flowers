@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    max-width: fit-content;
+}
+header{
+width:100%;
+max-width: max-content;
+    text-align: center;
+}
+.container{
+    text-align: center;
+    width:100%;
+    max-width: max-content;
+}
+.modog{
+    /* image of Bernese Mountain dog sitting for picture */
+    width: 50%;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .8 );
+}
+.blackmouthcur{
+    /* Image in section two Black Mouth Cur headshot */
+    width:50%;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .8 );
+}
+.breeding{
+    /* image in the nave section showing the Black Mouth Cur for breeding */
+    width:60%;
+    border-radius: 50%;  box-shadow: 0 4px 6px hsla(0, 0%, 0%, .8 );
+}
+nav{
+    
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+
+/* seeking to resize the buttons in nav they are not on the grid and area not responsive  */
+}
+.con{
+    max-width: fit-content;
+    width: 50%;
+}
+/* flashing dog in header is the flag for B&MA */
+.flag{
+    width: 10%;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .8 );
+}
+p{
+    font: weight 100px;
+    font-size: 24px;
+
+}
+/* changing font size for easier readability */
+h2{
+    font-size: 32px;
+}
+li{
+    font-weight: bolder;
+    font-size: 28px;
+}
+/* design and effects rendered on all buttons */
+a{
+    border-radius: 50%;
+    padding:1%;
+    background-color:antiquewhite;
+    margin-top: 10px;
+    border: 15px;
+    border-color: rgb(243, 250, 215);
+    border-style: groove;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .8 );
+
+    
+}
+
+.customer1{
+    /* fictational customer1 with fictational review */
+    border-radius: 50%;
+    width: 40%;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .8 );
+}
+.customer2{
+
+    border-radius: 50%;
+    width: 40%;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .8 );
+}
+footer{
+    text-align: center;
+    width: 100%;
+   
+}
+.grid{
+    /* grid only covers the main and sections in it. Header and Footer not on grid */
+    width: 100%;
+    display: grid;
+    grid-template-areas: "aside intro intro"
+                        "aside theory theory";
+}
+header{
+    background-color: darkseagreen;
+    padding: 10%;
+    max-width: 100%;
+}
+aside{
+    grid-area: aside;
+    background-image: linear-gradient(antiquewhite, darkseagreen);
+}
+.intro{
+
+    grid-area: intro;
+    background-color: antiquewhite;
+}
+
+li{
+    list-style-type: none;
+}
+.theory{
+
+    grid-area: theory;
+    background-color: darkseagreen;
+}
+footer{
+
+    background-color: antiquewhite;
+    padding: 2%;
+}
+.foots{
+    margin-top: 20%;
+    width: 5%;
+}
+.house{
+    /* fictational image used to display facilities of B&MA */
+    border-radius: 50%;
+    width: 50%;  box-shadow: 0 4px 6px hsla(0, 0%, 0%, .8 );
+}
+.form{
+padding:10%;
+}
+
+/* animation on flag to scale, attention grabber */
+.flag{
+    animation: flag 3s linear infinite;
+}
+
+@keyframes flag{
+    0%{
+        transform:scale(1);
+    }
+    50%{
+        transform:scale(1.4);
+    }
+    100%{
+        transform:scale(1.6);
+    }
+}
+
+/* mobile/tablet view */
+@media(max-width: 900px){
+    nav{
+        flex-direction: column;
+        align-items:center;
+    }
+
+}
+

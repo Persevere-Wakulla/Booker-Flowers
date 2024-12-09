@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="tunk.css">
+  <title>Tunk</title>
+</head>
+
+<body>
+  <header>
+    <h1>TUNK</h1>
+  </header>
+  <main>
+
+
+    <div class="game-container" id="game-container">
+      <section class="op-hand" id="op-hand"></section>
+      <section class="playing-field" id="playing-field">
+        <div class="discard" id="discard"></div>
+        <div class="deck" id="deck-re"></div>
+        <div class="pl-spreads" id="pl-spreads"></div>
+      </section>
+      <div class="btn-pan">
+        <button id="deal" class="deal" type="button">Deal</button>
+        <button id="spread" class="spread" type="button">Spread</button>
+        <button id="hit" class="hit" type="button">Hit</button>
+        <button id="to-hand" class="to-hand" type="button">Hand</button>
+        <button id="throw-away" class="throw-away" type="button">Discard</button>
+      </div>
+      <section class="pl-hand" id="pl-hand">
+
+      </section>
+
+    </div>
+
+
+  </main>
+  <script src="tunk.js"></script>
+</body>
+
+</html>

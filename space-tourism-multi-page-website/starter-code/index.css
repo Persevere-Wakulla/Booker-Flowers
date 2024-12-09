@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 2px solid red; */
+}
+
+body {
+    /* width: 100vw; */
+    /* height: 100vh; */
+    background-image: url(assets/home/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.location {
+    border-style: groove;
+}
+
+.loc a {
+    border-bottom: 3px solid transparent;
+}
+
+.loc a:hover {
+    color: gold;
+    border-bottom: 3px solid #dc143c;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.242);
+
+
+}
+
+main {
+    text-align: center;
+
+
+
+}
+
+.icon {
+    width: 15px;
+}
+
+
+a {
+    color: aliceblue;
+    font-size: 24px;
+    text-decoration: none;
+    display: flex;
+
+}
+
+h2 {
+    color: aliceblue;
+
+
+
+
+}
+
+span {
+    font-size: 5rem;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+p {
+    color: aliceblue;
+    text-align: center;
+    font-size: 16px;
+    width: fit-content;
+
+}
+
+.exp {
+    border-radius: 50%;
+    padding: 50px;
+    border: none;
+    transition: 0.8s ease;
+}
+
+.pre {
+    border-radius: 50%;
+    padding: 50px;
+    border: none;
+    transition: 0.8s ease;
+}
+
+.pre:hover {
+    background-image: radial-gradient(gold, white, gold, white);
+    box-shadow: 10px 12px 16px 10px rgba(120, 120, 122, 0.955), 10px 12px 16px 10px rgba(122, 120, 120, 0.955);
+}
+
+.exp:hover {
+    background-image: radial-gradient(gold, white, gold, white);
+    box-shadow: 10px 12px 16px 10px rgba(120, 120, 122, 0.955), 10px 12px 16px 10px rgba(122, 120, 120, 0.955);
+}
+
+/* slideshow container */
+.slideshow {
+    max-width: 30%;
+    position: relative;
+    margin: auto;
+}
+
+img {
+    width: 35%;
+}
+
+/* hide the images by default */
+.mySlides {
+    display: none;
+ 
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    transition: 0.8s ease;
+    user-select: none;
+}
+.next {
+    right: 0;
+
+}
+.text {
+    color: aliceblue;
+    font-size: 16px;
+    padding: 8px 12px;
+    bottom: 8px;
+    width: 10px;
+    text-align: center;
+   
+
+}
+
+
+
+.numbertext {
+    color: aliceblue;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+
+}
+
+.dot {
+    cursor: pointer;
+    margin: 0 2px;
+    background-color: gold;
+    display: inline-block;
+    transition: background-color 0.8s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: gold;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .6
+    }
+
+    to {
+        opacity: 1
+    }
+}

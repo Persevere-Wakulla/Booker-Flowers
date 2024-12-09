@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(#daa520, rgba(122, 27, 0.836));
+}
+.grid{
+    display: grid;
+    grid-template-areas: "header header aside"
+                        "sec1 sec1 aside"
+                        "sec2 sec2 aside"
+                        "footer footer aside";
+    
+                       
+    
+}
+header{
+    grid-area: header;
+    gap:20px;
+    padding: 10px;
+}
+aside{
+    grid-area: aside;
+    gap:20px;
+    padding: 10px;
+}
+.sec1{
+    grid-area: sec1;
+    gap:20px;
+    padding: 10px;
+   
+}
+.sec2{
+    grid-area: sec2;
+    gap:20px;
+    padding: 10px;
+}
+footer{
+    grid-area: footer;
+    padding: 30px;
+    gap:20px;
+}
+.helment{
+    border-radius: 50%;
+    width: 110px;
+}
+.talkback{
+    resize: none;
+    opacity: 0.8;
+    border-radius: 5%;
+
+}
+.logo{
+    border-radius: 50%;
+    float: right;
+}
+p{
+    font-size: 20px;
+}
+.guy{
+    width: 110px;
+    border-radius: 50%;
+}
+.football{
+    width: 110px;
+    border-radius: 50%;
+}
+.fix{
+    display: grid;
+    grid-template-areas: "h2 h2 h2"
+                            ". logo ."
+                            "p p p"
+                            "div div div";
+}
+h2{
+    grid-area: h2;
+}
+.logo{
+    grid-area: logo;
+
+}
+p{
+    grid-area: p;
+
+}
+div{
+    grid-area: div;
+    text-align: center;  
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.talkback{
+    color:black;
+    font-weight:bolder;
+}
+.but{
+    background-color: black;
+    color:aliceblue;
+    border-radius: 50%;
+    width: 30%;
+    height: 10%;
+}
+#first{
+    color:aliceblue;
+    background-color: black;
+    border-radius: .5em;
+    padding:5px;
+}
+#second{
+    gap:60px;background-color: black;
+    color:aliceblue;
+    border-radius: .5em;
+    padding:5px;
+}
+#contact{
+    background-color: black;
+    color:aliceblue;
+    border-radius: .5em;
+    padding:5px;
+}
+.hello{
+    color:aliceblue;
+    background-color: black;
+    border-radius: .5em;
+    padding:1px;
+}
+Details{
+    color: aliceblue;
+}
+@media(max-width: 550px){
+    .grid{
+        display: grid;
+        grid-template-areas: "header header"
+                                "aside aside"
+                                "sec1 sec1"
+                                "sec2 sec2"
+                                "footer footer";
+    }
+    header{
+        grid-area: header;
+    }
+    aside{
+        grid-area: aside;
+    }
+    .sec1{
+        grid-area: sec1;
+    }
+    .sec2{
+        grid-area: sec2;
+    }
+    footer{
+        grid-area: footer;
+    }
+}
+@keyframes logo{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(360%);
+    }
+}
+.logo{
+    animation-name: logo;
+    animation-duration: 60s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: normal;
+}

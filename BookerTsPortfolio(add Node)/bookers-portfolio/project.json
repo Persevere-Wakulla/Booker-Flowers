@@ -1,0 +1,168 @@
+[
+    {
+        "id": 1,
+        "name": "Adventure Game",
+        "description": "This game was created using vanilla JavaScript and objects to create a game of choice. As you make your choices, the game takes you to the next text node and you progress through the cycles.",
+        "images": [
+            "src/assets/app-images/adventuregameone.png",
+            "src/assets/app-images/adventuregametwo.png",
+            "src/assets/app-images/adventuregamethree.png",
+            "src/assets/app-images/adventuregamefour.png",
+            "src/assets/app-images/adventuregamefive.png"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "k-9 Adoption",
+        "description": "Created using react, this app is set for dog lovers to look through the selection of k-9's up for adoption and select the one they wish to apply to adopt. There is a sign-up process, a page to log in the dog you desire, then you have a approval section for the agency to approve or deny the request.",
+        "images": [
+            "src/assets/app-images/Bonesandmannersone.png",
+            "src/assets/app-images/bonesandmannerstwo.png",
+            "src/assets/app-images/bonesandmannersthree.png",
+            "src/assets/app-images/bonesandmannersfour.png",
+            "src/assets/app-images/bonesandmannersfive.png"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Carousel",
+        "description": "Just playing around and ended up with the hall of Medusa with a flipping carousel showing the different faces of Medusa.",
+        "images": [
+            "src/assets/app-images/carouselone.png",
+            "src/assets/app-images/carouseltwo.png",
+            "src/assets/app-images/carouselthree.png"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Digital Clock",
+        "description": "Digital Clock which displays current time",
+        "images": [
+            "src/assets/app-images/digitalclock.png",
+            "src/assets/app-images/digitalclock2.png",
+            "src/assets/app-images/digitalclock3.png"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Drag and drop to-do",
+        "description": "Vanilla JavaScript drag and drop to-do list app",
+        "images": [
+            "src/assets/app-images/firstto-do0app.png",
+            "src/assets/app-images/firstto-do-apptwo.png"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Money Exchange",
+        "description": "You pick the country and the amount you wish to exchange and enter you entry into the input area. After which the app will tell you how much money is retured to you in that countries currency for your American Dollar.",
+        "images": [
+            "src/assets/app-images/moneyexchangeone.png",
+            "src/assets/app-images/moneyexchange2.png",
+            "src/assets/app-images/moneyexchangethree.png"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Pick A Card Game",
+        "description": "In this react project you pick a card and the deck shuffles and you pick another card. The game continues until you either pick the same card twice or you pick all the cards once without a repeat.",
+        "images": [
+            "src/assets/app-images/pickacardgame.png",
+            "src/assets/app-images/pickacardgame2.png",
+            "src/assets/app-images/pickacardgame3.png"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Planets",
+        "description": "This react project has a page for each of the planets in our solar system showing three different views of the planet as you choose the button. This one also uses a fetch JSON to import the information for the buttons.",
+        "images": [
+            "src/assets/app-images/planetsone.png",
+            "src/assets/app-images/planetstwo.png",
+            "src/assets/app-images/planetsthree.png",
+            "src/assets/app-images/planetsfour.png",
+            "src/assets/app-images/planetsfive.png",
+            "src/assets/app-images/planetssix.png"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Rock, Paper, Scissors",
+        "description": "Rock, paper, scissors in a inner-active dragon kill dragon war game board. The computer v/s you where the computer uses a random number generator to make its choices.",
+        "images": [
+            "src/assets/app-images/r-p-s-gamefour.png",
+            "src/assets/app-images/r-p-s-gametwo.png",
+            "src/assets/app-images/r-p-s-gamethree.png",
+            "src/assets/app-images/r-p-s-gamefour.png",
+            "src/assets/app-images/r-p-s-gamefive.png"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Resume Builder",
+        "description": "In this react project you enter your information and submit each section. Once you are done you go to the bottom and create a resume. Your information will be saved to the local storage where you can retrieve your resume to update it or to copy it as you need.",
+        "images": [
+            "src/assets/app-images/resumebuilderone.png",
+            "src/assets/app-images/resumebuildertwo.png",
+            "src/assets/app-images/resumebuilderthree.png",
+            "src/assets/app-images/resumebuilderfour.png"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Booker's Super Store",
+        "description": "Booker's Super Store is an amazing shopping experience. You must first sign up to be a customer, then sign in. You play a pricing game to win money to shop, if you answer wrong you lose $100.00. For each right answer you get a random money reward from $100.00 up to $600.00. After winning some money you may go to the store page and puchase the items you wish putting them in your shopping cart. Next go to the shopping cart page you can puchase your items or remove them from your cart if you change your mind about certain items. If you purchase an item and then decide you don't want it you can remove the item and recieve your money back on your account.",
+        "images": [
+            "src/assets/app-images/superstoreone.png",
+            "src/assets/app-images/superstoretwo.png",
+            "src/assets/app-images/superstorethree.png",
+            "src/assets/app-images/superstoregame.png",
+            "src/assets/app-images/superstoreshopping.png",
+            "src/assets/app-images/superstoreshoppingcart.png"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "React To-Do App",
+        "description": "This to-do app was built in react and does not need the drag and drop function. It operate as you enter your list and gives you the buttons to move up down or delete list items",
+        "images": [
+            "src/assets/app-images/to-do-reactone.png",
+            "src/assets/app-images/to-do-reacttwo.png",
+            "src/assets/app-images/to-do-reactthree.png"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Cruise App",
+        "description": "Booker's cruise ships with magnifying image capability to show off events, sign up capability and cruise options.",
+        "images": [
+            "src/assets/app-images/cruise1.png",
+            "src/assets/app-images/cruise2.png",
+            "src/assets/app-images/cruise3.png",
+            "src/assets/app-images/cruise4.png",
+            "src/assets/app-images/cruise5.png",
+            "src/assets/app-images/cruise6.png",
+            "src/assets/app-images/cruise7.png"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "RPG-Dragon Repeller",
+        "description": "Using HTML and CSS to build a rpg game",
+        "images": [
+            "src/assets/app-images/rpg-dragonrepeller1.png",
+            "src/assets/app-images/rpg-dragonrepeller2.png",
+            "src/assets/app-images/rpg-dragonrepeller3.png"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Booker's Clock",
+        "description": "This clock was done in vanilla JavaScript and displays the traditional 12 hour, hour hand and second hand display.",
+        "images": [
+           
+            "src/assets/app-images/noletime1.png",
+            "src/assets/app-images/noletime2.png"
+        ]
+    }
+]

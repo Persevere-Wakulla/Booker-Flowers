@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+    text-align: center;
+ 
+}
+p{
+      font-size: 26px; 
+}
+span{
+    font-size: 26px; 
+}
+h1{
+    text-align: center;
+    color: darkblue;
+}
+fieldset{
+    padding: 1%;
+    font-size: 16px;
+    font-weight: bolder;
+    border-style: groove;
+    border-color: lightskyblue;
+   color:#0000ff;
+    
+}
+.mail{
+    color:#0000ff;
+}
+
+.num{
+    color:#0000ff; 
+}
+.grade{
+    color: goldenrod;
+} 
+.higher{
+    color: goldenrod; 
+} 
+.continue{
+    color: goldenrod;
+}
+
+
+legend{
+   font-size: 22px;
+   color:darkblue;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+   
+}
+button{
+    padding: 3%;
+    font-size: 14px;
+    font-weight: bold;
+    border-color: darkblue;
+    border-style: groove;
+    border-radius: 8%;
+    color:darkblue;
+}
+.create{
+    padding: 1%;
+    color:darkblue;
+}
+.retrieve{
+    padding: 1%;
+    color:darkblue;
+}
+.world{
+    width: 8rem;
+}
+

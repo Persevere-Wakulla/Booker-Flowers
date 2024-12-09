@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fakestore2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <!-- sign in form -->
+<h1 class="test">"POCOHANTAS"</h1>
+<p class="test">Your one stop shopping app</p>
+        <form id="myForm">
+            <fieldset>
+
+                <legend>
+                    <img src="./images/real-life-pocohantas.jpg" class="logo" alt="real-life-pocohantas">
+                </legend>
+                <!-- <h1>"POCOHANTAS"</h1> -->
+
+                <br><br>
+                <div class="flex">
+                    <div>
+                        <label for="firstname">UserFirstName</label>
+                        <input type="text" id="firstNameInput" placeholder="Enter First Name" name="firstname" required>
+                        <br><br>
+                        <label for="lastname">UserLastName</label>
+                        <input type="text" id="lastNameInput" placeholder="Enter Last Name" name="lastname" required>
+                        <br><br>
+                        <label for="password">Password</label>
+                        <input type="password" id="passWordInput" placeholder="Enter Password" name="password" required>
+                    </div>
+
+                    <br><br>
+
+                    <div class="actions">
+                        <div>
+                            <button type="submit" id="logIn">Login <span>
+                                    <img src="./images/istockphoto-1206806317-612x612.jpg" class="logo flex"
+                                        alt="shoppingCart">
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+
+        <br>
+        <div class="bgi">
+
+            <nav class="flex locator">
+
+                <div id="calculator">
+                    <!-- display current balance owed here -->
+                </div>
+                <div id="categories">
+                    <!-- show list of catagories here and have link to each one drop down selection -->
+                    <section class="men's" id="mens">Men's Clothing</section>
+                    <section class="women's" id="womens">Women's Clothing</section>
+                    <section class="jewelry" id="jewelry">Jewelery</section>
+                    <section class="electronics" id="electronics">Electronics</section>
+                </div>
+
+            </nav>
+            <br><br>
+            <div id="shoppersWindow" class="shoppersWindow">
+                <div class="flex">
+
+
+                    <img src="./images/real-life-pocohantas.jpg" class="cartPic" alt="cartPic">
+                    <p>What is your hearts desire?</p>
+                    <img src="./images/istockphoto-1206806317-612x612.jpg" class="cartPic" alt="cartPic">
+                </div>
+                <div id="shoppingCart" class="shoppingCart flex">
+                    <!-- show list of items user is purchasing and price here -->
+
+                </div>
+                <div id="pDisplay" class="pDisplay">
+                    <!--smaller clickable display-->
+                </div>
+                <div id="productDisplay" class="productDisplay flex-wrap">
+                    <!-- show image of product here -->
+                </div>
+            </div>
+            <br><br>
+            <div class="flex">
+                <button type="button" class="add flex" id="add">Add<img
+                        src="./images/istockphoto-1206806317-612x612.jpg" class="cartPic" alt="cartPic"> Item</button>
+                <button type="button" class="remove flex" id="remove">Remove<img
+                        src="./images/istockphoto-1206806317-612x612.jpg" class="cartPic" alt="cartPic"> Item</button>
+                <button type="button" class="showcase flex" id="showcase">show<img
+                        src="./images/istockphoto-1206806317-612x612.jpg" class="cartPic" alt="cartPic">case</button>
+
+
+            </div>
+            <br><br>
+            <div class="flex">
+                <button type="button" class="buy flex" id="buy">buy<img
+                        src="./images/istockphoto-1206806317-612x612.jpg" class="cartPic" alt="cartPic">items</button>
+
+                <button type="button" class="logout flex" id="logout">Log<img
+                        src="./images/istockphoto-1206806317-612x612.jpg" class="cartPic" alt="cartPic"> Out</button>
+            </div>
+        </div>
+             <br>
+                <p class="test">The Essential Every Desires, Needs, and More Store:</p>
+                <br>
+                <p class="test">If we don't have it let us know and we'll get it!</p>
+    </main>
+
+    <script type="module" src="fakestore2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <title>Frontend Mentor | Todo app</title>
+
+
+</head>
+
+<body class="moon-sun">
+  <p class="starter">My Plans for Today are:</p>
+  <main>
+
+
+    <!-- backgroundImage and the icon plus the create text area -->
+    <header class="top">
+      <div class="mount flex">
+        <h1>TODO LIST</h1>
+        <img class="moon-sun" id="moon-sun" src="images/icon-moon.svg" alt="icon-moon">
+      </div>
+      <div class="can">
+        <input type="text" id="share" placeholder="Create a new todo...">
+
+      </div>
+    </header>
+    <!-- create text area should link to create the todo items of list -->
+    <div class="container">
+      <ul id="list">
+        <li id="item" class="flex" ondrop="dDrop(event)" ondragover="nDrop(event)" >
+          <input type="checkbox" id="input">
+          <p id="activity"></p>
+          <button type="button" class="change" id="reg">
+            <img id="icon-cross" class="change
+            " src="./images/icon-cross.svg" alt="x icon-cross">
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="dropsite" id="dropsite" ondrop="dDrop(event)" ondragover="nDrop(event)">Drag and drop to reorder list</div>
+    <div class="flex lable">
+      <p>Items Left</p>
+      <span class=><button type="button" class="change but" id="reorder"> ReOrder List</button></span>
+      <p>Items Completed</p>
+    </div>
+    <section class="flex counter" id="info">
+      <div class="count" id="counter"> ItemsLeft</div>
+      <br><br>
+      <div id="over" class="over">Items Completed</div>
+    </section>
+    <section class="flex control ">
+      <button type="button" class="change but" id="everything"> All</button>
+      <button type="button" class="change but" id="needsdoing">Active</button>
+      <button type="button" class="change but" id="finished">Completed</button>
+      <button type="button" class="change but" id="trash">Trash Can</button>
+    </section>
+
+
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+      Coded by <a href="#">Booker T. Flowers</a>.
+    </div>
+    <script src="index.js"></script>
+  </main>
+</body>
+
+</html>

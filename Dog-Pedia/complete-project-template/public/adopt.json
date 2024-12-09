@@ -1,0 +1,27 @@
+[
+    {
+        "fname": "Booker",
+        "lname": "Flowers",
+        "address": "2640 Turkey Oak Lane Tallahassee Fl 32304",
+        "cell": "850 777 7777",
+        "email": "bookert@gmail.com",
+        "specific": "no more than 8 to 12months old",
+        "health": "I am in good physical health",
+        "kids": "My Children are grown",
+        "pets": "none",
+        "vet": "none"
+
+    },
+    {
+          "fname": "Eugene",
+        "lname": "Black",
+        "address": "1515 Texas Street apt 17",
+        "cell": "850 484 7839",
+        "email": "eugene@gmail.com",
+        "specific": "Must be active and love to run",
+        "health": "Perfectly Healthy",
+        "kids": "2 boys age 10 and 7 - 1 girl age 9",
+        "pets": "2 cats, 1 dog a pittbull",
+        "vet": "yes"  
+    }
+]

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Guard Dogs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body>
+    <main class="grid">
+    <header>
+        <!--Future survey form use background Berneses Mountain Dog -->
+        <h1 class="fix"> Survey Form: Which K-9 would make the best Guard Dog?</h1>
+    </header> 
+    <section class="intro">
+        <!--Paragraph explaining what the survey is about-->
+        <!--span is to have large bold lettering with dark blue color-->
+        <p class="fix"> <span>Bone's & Manners is conducting a survey to determine which
+            K-9 in your opinion would make the best guarddog.</span> We have
+            selected a few breeds for you to choose from and would like
+            your input to help us determine which breed we will specialize
+            in training. If the safety of your family and friends depended on
+            it what K-9 would you trust. Be prepared to explain your choice.
+            Thank you for your participation, sincerly Bones & Manners Academy.
+        </p>
+    </section>
+    <br><br> 
+    <!--main used as container for grid-->
+        <!--form starts here with request for contact information-->
+        <form action="POST">
+            <fieldset class="survey">
+                <!--legend forms box-->
+                <legend>
+                    <h2>Enter contact information here.</h2>
+                </legend>
+                <div>
+                    <label for="fname"></label>
+                    <p>Enter your First Name</p>
+                    <input class="yo" id="fname" type="text" required><br>
+                    <label for="lname"></label>
+                    <p>Enter your Last Name</p>
+                    <input class="yo" for="lname" type="text" required><br>
+                    <label for="pnumber"></label>
+                    <p>Enter your three digit area code and seven digit phone number here.</p>
+                    <input class="yo" id="pnumber" type="tel" max-length="9" required><br>
+                    <label for="email"></label>
+                    <p>Enter your EMail address here</p>
+                    <input class="yo" id="email" type="text" required> <br>
+                </div>
+                <br>
+                <!--check Box for previous history with dogs-->
+                <div class="star">
+                    <p>Have you ever owned a dog before?</p>
+                    <label for="yes">yes</label><br>
+                    <input type="checkbox" name="yes" id="yes" value="yes"><br>
+                    <label for="no">no</label><br>
+                    <input type="checkbox" name="no" id="no" value="no"><br>
+                    <p>Are you around dogs regularly?</p>
+                    <label for="yes">yes</label><br>
+                    <input type="checkbox" name="yes" id="yes" value="yes"><br>
+                    <label for="no">no</label><br>
+                    <input type="checkbox" name="no" id="no" value="no"><br>
+                </div>
+                <!--Drop down selection for candidate guarddog breeds-->
+                <div>
+                    <br>
+                    <h2>In your opinion which breed of the following K-9's would make the
+                        best guarddog?(choose only one.)
+                    </h2><br><br>
+                    <!--picture of brown eyed dog looking humble-->
+                    <img src="./images/a-grinning-bronze-coloured-dog.jpg" class="guard" alt="grinning"><br><br>
+                    <label for="breeds">Breeds</label>
+                    <select name="breeds" id="breeds">
+                        <option disable selected></option>
+                        <option value="bulldog">Bull Dog</option>
+                        <option value="pitbull">Pit Bull</option>
+                        <option value="rottweiler">Rottweiler</option>
+                        <option value="bullmastiff">BullMastiff</option>
+                        <option value="dobermanpinscher">Doberman Pinscher</option>
+                        <option value="germanshepherd">German Shepherd</option>
+                        <option value="rhodesinridgeback">Rhodesin Ridgeback</option>
+                        <option value="blackmouthcurr">Blackmouth Curr</option>
+                        <option value="chowchow">Chow Chow</option>
+                        <option value="irishwolfhound">Irish Wolfhound</option>
+                        <option value="greatdane">Great Dane</option>
+                        <option value="hyena">Hyena</option>
+                        <option value="canecorso">Cane Corso</option>
+                    </select><br><br>
+                    <!--Text area for exlpaination of why client chose the K-9 Breed they selected-->
+                    <textarea name="why" class="talk" id="why" cols="20" rows="20"
+                        placeholder="Why did you select this breed?"></textarea>
+                    <br><br>
+                    <div>
+                        <p class="tu">Some small dogs can be used as early alarms and even some defense and prevention as well.
+                            For small apartments or just small dog lovers this opens up tan avenue for the use
+                            of a toy breed for home security and early detection of danger.
+                        </p>
+                        <img src="images/wise-pug-thinking-about-the-world.jpg" class="small" alt="wise pug">
+
+                    </div>
+                    <!--selection for toy dogs for people who can not have a big dog-->
+                    <label for="toybreeds">Toy Breeds</label>
+                    <select name="toybreeds" id="toybreeds">
+                        <option disable selected></option>
+                        <option value="affenpinscher">Affenpinscher</option>
+                        <option value="chihuahua">Chihuahua</option>
+                        <option value="brusselsgriffon">Brussels Griffon</option>
+                        <option value="miniaturepinscher">Miniature Pinscher</option>
+                        <option value="pomeranion">Pomeranion</option>
+                        <option value="pug">Pug</option>
+                        <option value="shihtzu">Shih Tzu</option>
+                        <option value="yorkshireterrier">Yorkshire Terrier</option>
+                        <option value="maltese">Maltese</option>
+                    </select><br><br>
+                    <!--Text area for exlpaination of why client chose the K-9 Breed they selected-->
+                    <textarea name="explain" class="talk" id="explain" cols="20" rows="20"
+                        placeholder="Why did you select this breed?"></textarea>
+                    <br><br>
+
+                </div>
+
+                <button class="sub" type="submit">Submit</button>
+            </fieldset>
+        </form>
+
+    </main>
+
+</body>
+
+</html>

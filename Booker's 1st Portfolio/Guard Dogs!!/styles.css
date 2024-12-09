@@ -1,0 +1,119 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.grid{
+    display: grid;
+    grid-template-areas: "header header header header header header"
+                        "header header header header header header"
+                        "section section section section section section"
+                        "section section section section section section "
+                        "form form form form form form"
+                        "form form form form form form";
+}
+.fix{
+    max-width: 80%;
+    margin: auto;
+}
+header{
+    text-align: center;
+    background-color: green;
+    grid-area: header;
+    font-size: 2em;
+    min-height: 500px;
+    background-image: url(images/black-dog-panting-in-doorway.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+
+}
+span{
+    font-size: 40px;
+    font: bolder;
+}
+#breeds{
+    background-color: rgb(255, 98, 0);
+    color: green;
+    margin-right: 70px;
+}
+.tu{
+    font-size: 30px;
+}
+.yo{
+    background-color: rgb(255, 98, 0);
+    color: green;  
+}
+#toybreeds{
+    background-color: rgb(255, 98, 0);
+    color: darkgreen;
+    margin-right: 90px; 
+}
+section{
+    grid-area: section;
+}
+
+form{
+    background-color: green;
+    grid-area: form;
+}
+.intro{
+    background-color: rgba(100, 100, 100, 100%);
+background-color: rgb(255, 98, 0);
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+.guard{
+border-radius: 50%;
+max-width: 480px;
+    
+}
+.star{
+    background-color: rgb(255, 98, 0);
+}
+.sub{
+    background-color: rgb(255, 98, 0);
+}
+.talk{
+    background-color: rgb(255, 98, 0);
+    color: green;
+}
+.survey{
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.small{
+    border-radius: 50%;
+}
+
+@media(min-width:550px){
+   
+    
+    .grid{
+        display:grid;
+        grid-template-areas: "header header form form section section"
+                             "header header form form section section"
+                             "header header form form section section"
+                             "header header form form section section"
+                             "header header form form section section"
+                             "header header form form section section";
+
+    }
+    header{
+        grid-area: header;
+        width:100%
+    }
+    section{
+        grid-area: section;
+        width:100%
+    }
+    form{
+        grid-area: form;
+        width:100%
+    }
+    
+}

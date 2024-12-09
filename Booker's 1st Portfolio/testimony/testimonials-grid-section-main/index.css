@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid{
+    display: grid;
+    grid-template-areas: 
+    "dan dan dan dan dan dan jon jon jon kir kir kir"
+    "dan dan dan dan dan dan jon jon jon kir kir kir"
+    "dan dan dan dan dan dan jon jon jon kir kir kir"
+    "dan dan dan dan dan dan jon jon jon kir kir kir"
+    "dan dan dan dan dan dan jon jon jon kir kir kir"
+    "dan dan dan dan dan dan jon jon jon kir kir kir"
+    "jea jea jea pat pat pat pat pat pat kir kir kir"
+    "jea jea jea pat pat pat pat pat pat kir kir kir"
+    "jea jea jea pat pat pat pat pat pat kir kir kir"
+    "jea jea jea pat pat pat pat pat pat kir kir kir"
+    "jea jea jea pat pat pat pat pat pat kir kir kir"
+    "jea jea jea pat pat pat pat pat pat kir kir kir";
+    
+}
+.dan {
+grid-area:dan;
+background-image: url(images/bg-pattern-quotation.svg);
+background-repeat:no-repeat;
+background-color: hsl(263, 55%, 52%);
+color:antiquewhite;
+gap:10px;
+border-radius: 10px;
+margin:10px;
+background-position:top 20% right 15%;
+padding: 10px;
+
+
+}
+.ir{
+    border-radius: 50%;
+}
+
+.jon {
+grid-area: jon;
+background-color: hsl(217, 19%, 35%);
+color: white;
+border-radius: 10px;
+gap:10px;
+margin:10px;padding: 10px;
+
+}
+
+.kir {
+grid-area: kir;
+color: hsl(217, 19%, 35%);
+border-radius: 10px;
+gap:10px;
+margin:10px;
+background-color:rgb(250, 247, 215);
+padding: 30px;
+
+}
+
+.jea {
+grid-area: jea;
+color:hsl(217, 19%, 35%);
+border-radius: 10px;
+gap:10px;
+margin:10px;
+background-color: rgb(248, 250, 215);
+padding: 20px;
+
+}
+
+.pat {
+grid-area: pat;
+background-color: hsl(219, 29%, 14%);
+color: aliceblue;
+border-radius: 10px;
+gap:10px;
+margin:10px;
+padding: 10px;
+
+}
+.flex{
+    display: flex;
+    ;
+}
+
+@media(max-width: 700px){
+    .grid{
+        display: grid;
+        grid-template-areas:"dan"
+                            "dan"
+                            "jon"
+                            "jea"
+                            "pat"
+                            "pat"
+                            "kir"
+                            "kir";
+    }
+
+}

@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+}
+main{
+    /* width: 100%; */
+    height: 100%;
+    display: grid;
+    grid-template-rows: 6fr 1fr;
+}
+section{
+background-image:url(./360_F_563967731_wwGn0f1iz8l5Z9eHdZbjJUoaeatXmcbp.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+border-radius: 35%;
+border-style: groove;
+border-width: 2rem;
+padding: 1rem;
+width: 80%;
+height: 80%;
+display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+/* justify-content: center; */
+/* flex-direction: column; */
+align-items: center;
+
+}
+.opponents{
+    height: 100%;
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+}
+.opHand{
+    justify-self: center;
+    position: relative;
+    border: 2px solid green;
+    width: 40%;
+    height: 95%;
+}
+.card{
+    width: 88px;
+    height: 128px;
+    position: absolute;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+.opPH{
+    display:flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.opPH1{
+    width:88px;
+    height: 128px;
+}
+.opPH2{
+    width:88px;
+    height: 128px;
+}
+.opPH3{
+    width:88px;
+    height: 128px;
+}
+.opPH4{
+    width:88px;
+    height: 128px;
+}
+.field{
+    justify-self: center;
+    background-image: url(./360_F_563967731_wwGn0f1iz8l5Z9eHdZbjJUoaeatXmcbp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width:50%;
+    padding:10%;
+    opacity: .7;
+    border-style: ridge;
+  
+  
+    
+}
+.otherSide{
+    position:absolute;
+    left: 100%;
+    top: 0px;
+}
+.pscore{
+    color: aliceblue;
+    border-radius: 10px;
+    padding:15%;
+    border-style: ridge;
+    width:fit-content;
+    border-color: #ff0000;
+    background-color: #0000ff;
+    opacity: 1;
+    text-align: center;
+}
+.trump{
+    color: #000000;
+    border-radius: 10px;
+    padding:15%;
+    border-style: ridge;
+    width:fit-content;
+    border-color: #008000;
+    background-color:#f0f8ff;
+    opacity: 1;
+    text-align: center;
+}
+.oscore{
+    color: #f0f8ff;
+    border-radius: 10px;
+    padding:15%;
+    border-style: ridge;
+    width: fit-content;
+    border-color: #0000ff;
+    background-color: #ff0000;
+    opacity: 1;
+    text-align: center;
+
+}
+
+.opposite{
+    position:absolute;
+    right: 100%;
+    top: 0px;
+}
+
+
+.bidder{
+    color: #f0f8ff;
+    border-radius: 10px;
+    padding:15%;
+    border-style: ridge;
+    width: fit-content;
+    border-color: #0000ff;
+    background-color: #ff0000;
+    opacity: 1;
+    text-align: center;
+}
+.bringBack{
+    color: #000000;
+    border-radius: 10px;
+    padding:15%;
+    border-style: ridge;
+    width:fit-content;
+    border-color: #008000;
+    background-color:#f0f8ff;
+    opacity: 1;
+    text-align: center;  
+}
+.bid{
+    color: aliceblue;
+    border-radius: 10px;
+    border-style: ridge;
+    width:fit-content;
+    opacity: 1;
+    text-align: center;
+    background-image:radial-gradient(#ff0000, #0000ff) ;
+    padding: 15%; 
+}
+.challenger{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+}
+.plHand{
+    justify-self: center;
+    align-self: end;
+    position: relative;
+    border: 2px solid green;
+    width: 40%;
+    height: 55%;
+}
+.plPh{
+    display:flex;
+    justify-content: center;
+    align-self: end;
+    gap: 3rem;
+}
+.plPh1{
+    width:88px;
+    height: 128px;
+}
+.plPh2{
+    width:88px;
+    height: 128px;
+}
+.plPh3{
+    width:88px;
+    height: 128px;
+}
+.plPh4{
+    width:88px;
+    height: 128px;
+}
+.card_face{
+    border-radius: .4rem;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.card_face--back{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url(./dragon-spitting-fire.webp);
+    background-position: center;
+    transform: rotateY(180deg);
+}
+.is-flipped{
+    transform: rotateY(180deg)
+}
+.card_face img{
+    width: 88px;
+    height: 128px;
+}
+.card-0{
+    left: 0px;
+    z-index: 0;
+}
+.card-1 {
+    left: 26px;
+    z-index: 1;
+}
+.card-2 {
+    left: 36px;
+    z-index: 2;
+}
+.card-3 {
+    left: 46px;
+    z-index: 3;
+}
+.card-4 {
+    left: 56px;
+    z-index: 4;
+}
+.card-5 {
+    left: 66px;
+    z-index: 5;
+}
+.card-6 {
+    left: 76px;
+    z-index: 6;
+}
+.card-7 {
+    left: 86px;
+    z-index: 7;
+}
+.card-8 {
+    left: 96px;
+    z-index: 8;
+}
+.card-9 {
+    left: 106px;
+    z-index: 9;
+}
+.card-10 {
+    left: 116px;
+    z-index: 10;
+}
+.card-11 {
+    left: 126px;
+    z-index: 11;
+}
+.card-12 {
+    left: 136px;
+    z-index: 12;
+}
+.card-13 {
+    left: 146px;
+    z-index: 13;
+}
+.card-14 {
+    left: 156px;
+    z-index: 14;
+}
+.card-15 {
+    left: 166px;
+    z-index: 15;
+}
+.card-16 {
+    left: 176px;
+    z-index: 16;
+}
+.card-17 {
+    left: 186px;
+    z-index: 17;
+}
+.card-18 {
+    left: 196px;
+    z-index: 18;
+}
+.card-19 {
+    left: 206px;
+    z-index: 19;
+}
+.card-20 {
+    left: 216px;
+    z-index: 20;
+}
+.card-21{
+    left: 226px;
+    z-index: 21;
+}
+.card-22 {
+    left: 236px;
+    z-index: 22;
+}
+.card-23 {
+    left: 246px;
+    z-index: 23;
+}
+.card-24 {
+    left: 256px;
+    z-index: 24;
+}
+.card-25 {
+    left: 266px;
+    z-index: 25;
+}
+.card-26 {
+    left: 276px;
+    z-index: 26;
+}
+.card-27 {
+    left: 286px;
+    z-index: 27;
+}
+.card-28 {
+    left: 296px;
+    z-index: 28;
+}
+.card-29 {
+    left: 306px;
+    z-index: 29;
+}
+.card-30 {
+    left: 316px;
+    z-index: 30;
+}
+.card-31 {
+    left: 326px;
+    z-index: 31;
+}
+.card-32 {
+    left: 336px;
+    z-index: 32;
+}
+.card-33 {
+    left: 346px;
+    z-index: 33;
+}
+.card-34 {
+    left: 356px;
+    z-index: 34;
+}
+.card-35 {
+    left: 366px;
+    z-index: 35;
+}
+.card-36 {
+    left: 376px;
+    z-index: 36;
+}
+.card-37 {
+    left: 386px;
+    z-index: 37;
+}
+.card-38 {
+    left: 396px;
+    z-index: 38;
+}
+.card-39 {
+    left: 406px;
+    z-index: 39;
+}
+.card-40 {
+    left: 416px;
+    z-index: 40;
+}
+.card-41 {
+    left: 426px;
+    z-index: 41;
+}
+.card-42 {
+    left: 436px;
+    z-index: 42;
+}
+.choices{
+    /* margin: auto; */
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+.card.dragging{
+    box-shadow: inset 0px 0px 15px purple;
+    opacity: 1;
+}
+.card.dragging :where(.card img){
+    opacity: .3;
+}
+button{
+    justify-self: center;
+    align-self: center;
+    background-image:radial-gradient(#ff0000, #0000ff) ;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 1rem 3rem;
+}

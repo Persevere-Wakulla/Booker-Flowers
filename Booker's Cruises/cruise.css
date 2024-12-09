@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* html 1 */
+.advertisement{
+    width: 80%;
+    text-align: center;
+}
+.adv{
+    background-image: url(./images/tall-lighthouse-on-sharp-rocky-shoreline-against-blue-water.jpg);
+    color: aliceblue;
+    font-size: 28px;
+}
+img{
+    width: 18rem;
+}
+.breath{
+    width: 11rem;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+  
+}
+/* zooming code below */
+.img-zoom-container {
+    position: relative;
+    max-width: fit-content;
+    margin: auto;
+}
+
+.img-zoom-lens {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    /* set the size of the lens: */
+    width: 40px;
+    height: 40px;
+}
+
+.img-zoom-result {
+    border: 1px solid #d4d4d4;
+    /* set the size of the result div: */
+    width: 400px;
+    height: 400px;
+}
+
+.bottom{
+    margin-top: 3rem;
+}
+
+/* html 2 */
+/* dropdown button */
+
+form{
+     background-image: url(./images/carnival-cruise-bolt-ultimate-sea-coaster-SEACOAST0519-f492509c2a7a4a4d9445dd22854f15c9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a{
+    color:#00ffff;
+    font-size: 30px;
+}
+fieldset{
+   
+    color:#00ffff;
+    text-align: center;
+    
+}
+.dropbtn{
+    background-color: #00ffff;
+    color: seagreen;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border: aliceblue;
+    border-style: groove;
+    margin: 2rem;
+    
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+/* dropdown content(hidden by default) */
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* links inside the dropdown */
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: black;
+}
+/* show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* change the background color of the dropdown when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: black;
+    color:aliceblue;
+}
+.submit{
+    background-color: #00ffff;
+    color: seagreen;
+    padding: 16px;
+    font-size: 16px;
+    border: aliceblue;
+    border-style: groove;
+}
+/* html3 */
+/* centering text */
+body{
+    text-align: center;
+    color: aliceblue;
+    background-color: blue;
+}
+
+/* Magnifier for party image */
+.img-magnifier-container {
+    position: relative;
+}
+
+.img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    /* Set the size of the magnifier glass: */
+    width: 350px;
+    height: 350px;
+}

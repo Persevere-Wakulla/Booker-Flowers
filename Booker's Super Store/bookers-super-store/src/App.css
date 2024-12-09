@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* home page */
+.dis-contianer {
+  height: 100vh;
+  width: 100vw;
+}
+
+.root-layout {
+  color: #00008b;
+}
+
+.btn {
+  color: #adff2f;
+  background-color: #00008b;
+  width: 5rem;
+  text-align: center;
+  margin: auto;
+}
+
+.btn:hover {
+  color: #00008b;
+  background-color: #adff2f;
+}
+
+.wel {
+  color: #adff2f;
+  background-color: #000000;
+  text-align: center;
+}
+
+.img-container {
+  width: 20%;
+}
+
+.home-display {
+  text-align: center;
+  background-color: #0000ff;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* sign in page */
+form {
+  background-color: #adff2f;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* create customer page */
+.customer-input {
+  background-color: #adff2f;
+  width: 100vw;
+  height: 100vh;
+}
+
+.cus-pic {
+  width: 5rem;
+  height: 5rem;
+}
+
+.sign-up {
+  color: #adff2f;
+  background-color: #00008b;
+  width: 5rem;
+  text-align: center;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  color: #adff2f;
+  background-color: #000000;
+}
+
+/* root-layout page */
+nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000000;
+}
+
+nav a {
+  color: #adff2f;
+  text-align: center;
+}
+
+nav a:hover {
+  color: #f0f8ff;
+}
+
+h3 {
+  color: #adff2f;
+  background-color: #000000;
+  text-align: center;
+}
+
+.shrink {
+  width: 100%;
+}
+
+/* WhatIsThePrice page */
+h1 {
+  text-align: center;
+}
+
+.gstat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.game-display {
+  background-color: #adff2f;
+  width: 100vw;
+  height: 100vh;
+}
+
+.spa {
+  margin: auto;
+}
+
+.productdisplay {
+  margin: auto;
+  width: 25rem;
+  border: 2rem;
+  border-color: #00008b;
+  border-style: groove;
+  padding: 2rem;
+}
+
+.customer-guess {
+  width: 25%;
+  margin: auto;
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.account {
+  width: 13rem;
+  border: 1rem;
+  border-color: #00008b;
+  border-style: groove;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  font-size: 3rem;
+  color: #f0f8ff;
+  background-color: rgba(0, 0, 0, 0.704);
+}
+
+.message-area {
+  width: 22rem;
+  height: 7rem;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  border: 1rem;
+  border-color: #00008b;
+  border-style: groove;
+  font-size: 2rem;
+  color: #f0f8ff;
+  background-color: rgba(0, 0, 0, 0.704);
+  margin-left: 8rem;
+}
+
+/*  store page*/
+section {
+  background-color: #adff2f;
+  width: 100vw;
+  height: 100vh;
+}
+
+.assets {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cartShop {
+  width: 10rem;
+  border: 1rem;
+  border-color: #00008b;
+  border-style: groove;
+  color: #f0f8ff;
+}
+
+.storeDisplay {
+  max-width: 70%;
+  max-height: 85%;
+  border: 1.5rem;
+  border-color: #00008b;
+  border-style: groove;
+  padding: 2rem;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  overflow: scroll;
+  position: relative;
+}
+
+aside {
+  position: sticky;
+  top: 0;
+}
+
+aside:hover {}
+
+.btn-store {
+  width: 65%;
+}
+
+.dis-it {
+  width: 30%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 2px;
+}
+
+li {
+  color: #adff2f;
+  background-color: #00008b;
+  width: 6rem;
+  text-align: center;
+  margin: auto;
+  border-style: groove;
+  list-style: none;
+}
+
+li:hover {
+  color: #00008b;
+  background-color: #adff2f;
+}
+
+/* Shopping Cart page */
+.cart-display {
+  width: 90%;
+  height: 70%;
+  border-style: groove;
+  border-width: 2rem;
+  border-color: #00008b;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #adff2f;
+}
+
+.display {
+  display: flex;
+  justify-content: space-around;
+}
+
+.items-display {
+  width: 95%;
+  height: 75%;
+  border-style: groove;
+  border-width: 1rem;
+  border-color: #00008b;
+  padding: 9rem;
+  margin: auto;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  overflow: scroll;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.btn-control {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.total {
+  width: 10rem;
+  border: 1rem;
+  border-color: #00008b;
+  border-style: groove;
+  padding: 2rem;
+  text-align: center;
+  color: #f0f8ff;
+  background-color: rgba(0, 0, 0, 0.704);
+}
+
+h4 {
+  color: #0000ff;
+}
+
+.add {
+  color: #0000ff;
+}

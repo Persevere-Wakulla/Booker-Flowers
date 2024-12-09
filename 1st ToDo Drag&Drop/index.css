@@ -1,0 +1,195 @@
+:root {
+    /* primary */
+    --clr-bright-blue: hsl(220, 98%, 61%);
+
+    /* light mode */
+    --clr-title: hsl(0, 0%, 98%);
+    --clr-container: hsl(0, 0%, 98%);
+    --clr-background: rgba(148, 130, 238, 0.664);
+    --clr-check-font: hsl(233, 11%, 84%);
+    --clr-lines: hsl(236, 9%, 61%);
+    --clr-all-font: darkblue;
+    --clr-hover: red;
+
+    /* fonts */
+    --fam: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --fw-reg: 400;
+    --fw-bold: 700;
+    --size: 18px;
+
+    /* spacing */
+    --reg: 1.2rem;
+    --big: 3rem;
+
+    /* radius */
+    --radius: .5125rem;
+
+    /* max-width */
+    --max: 600px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* dark mode */
+/* the icon */
+.dark-mode {
+    --clr-background: rgba(34, 0, 128, 0.653);
+    --clr-unused: hsl(235, 24%, 19%);
+    --clr-check-font: hsl(224, 39%, 85%);
+    --clr-hover: hsl(272, 32%, 92%);
+    --clr-all-font: lightgreen;
+    --clr-lines: hsl(233, 14%, 35%);
+    --clr-container: hsl(237, 14%, 26%);
+}
+
+/* header */
+.top {
+    background-image: url('./images/bg-mobile-light.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: var(--reg);
+    padding-top: var(--big);
+    padding-bottom: var(--big);
+}
+body{
+    color:var(--clr-background);
+    background-image: url('./images/bg-desktop-light.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: var(--reg);
+    padding-top: var(--big);
+    padding-bottom: var(--big);
+}
+.starter{
+    color:white;
+    font-size: 3rem;text-align: center;
+}
+main{
+    max-width: 500px;
+    margin: 0 auto;
+}
+/* being used on the todo(letters) and the moon icon */
+.flex{
+    display:flex;
+    justify-content: space-between;
+    box-shadow: inset 2px 2px 2px;
+   
+}
+/* shadowing the div of the list items */
+#item{
+    box-shadow: inset 8px 8px 8px;
+}
+/* the word todo */
+h1{
+ color:var(--clr-title);
+}
+
+
+/* input area in the header */
+.can{
+   color:var(--clr-all-font);
+}
+/* controlling the top layout with the mountains and all the header content */
+header{
+    background-image: url(images/bg-mobile-light.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:var(--clr-all-font);
+    padding: 20%;
+    box-shadow: inset 8px 8px 8px;
+}
+ul{
+    box-shadow: inset 8px 8px 8px;
+}
+/* div with the unordered list */
+.container{
+    border-radius: 7%;
+    border-color:var(--clr-lines);
+    border-style:inset;
+    padding: 1%;
+    background-color: var(--clr-background);
+    box-shadow: inset 8px 8px 8px;
+}
+/* section with the all, active and completed buttons */
+.control{
+    border-radius: 7%;
+    border-color:var(--clr-lines);
+    border-style:inset;
+    padding: 1%;
+    border-radius: 10%;
+    background-color: var(--clr-background);
+    box-shadow: inset 8px 8px 8px;
+    
+}
+
+/* changing button text to blue with a background od aliceblue on a mouse over link */
+.change:hover{
+    background-color: var(--clr-background);
+    color:var(--clr-hover);
+ 
+    
+}
+#icon-cross:hover{
+  color:var(--clr-hover)
+}
+.but{
+    color:var(--clr-all-font);
+    background-color: var(--clr-background);
+    box-shadow: inset 2px 2px 2px;
+}
+/* Lables for the counters */
+.lable{
+    color:white;
+    background-color: var(--clr-background);
+    border-radius: 10%;
+    border-style: inset;
+    border-color: var(--clr-container);
+    box-shadow: inset 1px 1px 1px;
+}
+/* section with the item count and clear completed */
+.counter{
+    border-radius: 7%;
+    border-color:var(--clr-lines) ;
+    border-style:inset;
+    padding: 1%;
+    background-color: var(--clr-background);
+    box-shadow: inset 8px 8px 8px;
+   
+}
+.count{
+    border-radius: 7%;
+    border-color:var(--clr-lines) ;
+    border-style:inset;
+    padding: 1%;
+    background-color: var(--clr-background);
+    color:var(--clr-all-font);
+    box-shadow: inset 2px 2px 2px;
+}
+.over{
+    border-radius: 7%;
+    border-color:var(--clr-lines) ;
+    border-style:inset;
+    padding: 1%;
+    background-color: var(--clr-background);
+    color:var(--clr-all-font);
+    box-shadow: inset 2px 2px 2px;
+}
+li{
+    border-bottom: 1px solid;
+    color:var(--clr-all-font);
+}
+.dropsite{
+    border-radius: 7%;
+    border-color:var(--clr-lines);
+    border-style:inset;
+    padding: 1%;
+    background-color: var(--clr-background);
+    box-shadow: inset 8px 8px 8px;
+    border-bottom: 1px solid;
+    color:var(--clr-all-font);
+}
+
+

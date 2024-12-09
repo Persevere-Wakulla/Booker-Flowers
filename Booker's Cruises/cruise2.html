@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cruise.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                <h1>Book your get away today</h1>
+            </legend>
+            <div>
+                <label for="firstname">UserFirstName:</label>
+                <input type="text" id="firstNameInput" placeholder="Enter First Name" name="firstname" required>
+                <br><br>
+                <label for="lastname">UserLastName:</label>
+                <input type="text" id="lastNameInput" placeholder="Enter Last Name" name="lastname" required>
+                <br><br>
+                <label for="creditcardnumber">Credit Card Number:</label>
+                <input type="number" id="credit" placeholder="Enter creditcardnumber" number="creditcardnumber"
+                    required>
+                <br><br>
+                <label for="occupation">Occupation:</label>
+                <input type="text" id="occupation" placeholder="What is your occupation" occupation="occupation"
+                    required>
+                <br><br>
+                <label for="address">Home Address:</label>
+                <input type="text" id="address" placeholder="Enter current address" address="address" required>
+                <br><br>
+                <div class="dropdown" id="dropdown">
+                    <button type="button" class="dropbtn" required>dropdown</button>
+                    <div class="dropdown-content">
+                        <div><input type="checkbox" id="oneweek" name="oneweek" value="one">
+                        <label for="oneweek">One Week $500.00</label></div>
+                        <div><input type="checkbox" id="twoweeks" name="twoweeks" value="two">
+                        <label for="twoweeks">Two Weeks $1,000.00</label></div>
+                        <div><input type="checkbox" id="threeweeks" name="threeweeks" value="three">
+                        <label for="threeweeks">Three Weeks $2,000.00</label></div>
+                        <div><input type="checkbox" id="onemonth" name="onemonth" value="month">
+                        <label for="onemonth">One Month $3,000.00</label></div>
+                        <div><input type="checkbox" id="twomonths" name="twomonths" value="twomonths">
+                        <label for="twomonths">Two Months $5,500.00</label></div>
+                        <div><input type="checkbox" id="threemonths" name="threemonths" value="threemonths">
+                        <label for="threemonths">Three Months $10,000.00</label></div>
+                        <div><input type="checkbox" id="sixmonths" name="sixmonths" value="sixmonths">
+                        <label for="sixmonths">Six Months $19,500.00</label></div>
+                        <!-- <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br> -->
+                    </div>
+                </div>
+                <br><br>
+
+                <button type="submit" id="doIt" class="submit">Submission</button>
+
+                <br><br>
+                <div class="flex">
+                    <a href="cruise3.html" class="more" id="more">Tell me more</a>
+                    <a href="cruise.html" class="advertisement" id="advertisement">Advertisement</a>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+    <script src="cruise.js"></script>
+</body>
+
+</html>

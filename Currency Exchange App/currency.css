@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+/* master div over the slide show */
+.show{
+   margin: auto;
+   width:fit-content;
+}
+/* div over the individual images */
+.c-item{
+    height: 100px;
+    width: 100px;
+}
+/* the images in the slide show themselves */
+.flick{
+    object-fit: cover;
+    height:100%;
+
+}
+
+/* background image and the body */
+body{
+    background-image: url(./images/holding-the-earth-in-your-hand.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    text-align: center;
+   
+}
+/* div used to center text in h1 and provide blur effect */
+.shade{
+    background-color: rgba(0, 0, 0, 0.571);
+    text-align: center;
+}
+/* changing color of text to aliceblue overriding bootstrap color */
+h1{
+     color:aliceblue;
+}
+/* color inside the form titles for entries */
+label{
+    color:aliceblue;
+}
+/* the display area for the exchange and payout rate */
+.exchangeD{
+    color:aliceblue;
+    font-size: 38px;
+    background-color: rgba(0, 0, 0, 0.571);
+}

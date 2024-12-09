@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: gold;
+}
+
+.logo {
+    width: 10rem;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}
+
+.house {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    text-align: center;
+    background-color: green;
+    color: bisque;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.head {
+    font-weight: bolder;
+    font-size: 8rem;
+}
+
+.ah {
+    color: bisque;
+}
+
+
+.adp {
+    color: bisque;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.description {
+    font-size: 3rem;
+}
+
+.dawg {
+    background-color: green;
+    color: bisque;
+    width: 100vw;
+    height: 100vh;
+}
+
+.moreshw {
+    margin-top: 5px;
+    color: gold
+}
+
+.dogPic {
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+
+}
+
+.minus,
+.plus {
+    height: 2rem;
+    width: 2rem;
+    background-color: bisque;
+}
+
+.minus:hover,
+.plus:hover {
+
+    background-color: #ffd700;
+}
+
+footer {
+
+    margin-top: 1rem;
+    text-align: center;
+    color: #000000;
+    background-color: green;
+    padding: 3px;
+    border: 3px;
+    border-color: gold;
+    border-style: dashed;
+
+}
+
+.footy {
+    color: #ffd700
+}
+
+.confoot {
+    font-size: 2rem;
+    color: #008000;
+    font-weight: bolder;
+}
+
+.warning {
+    font-size: 2rem;
+    color: #ffe4c4;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+
+.apply {
+    background-color: #008000;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.aside {
+    text-align: center;
+}
+
+.show {
+    border-width: 2rem;
+    border-color: #ffe4c4;
+    border-style: groove;
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-size: 1.25rem;
+    background-color: #ffe4c4;
+    border: 3px;
+    border-color: darkgreen;
+    border-style: dashed;
+    padding: .5rem;
+}
+
+.required {
+    color: #ffe4c4
+}
+
+button {
+    background-color: #ffe4c4;
+    color: #008000;
+    border-style: groove;
+    border-color: #ffd700;
+    border-width: 3px;
+}
+
+label,
+input {
+    margin-top: .5rem;
+}
+
+.contact-btn,
+textarea {
+    display: block;
+    margin: auto
+}
+
+.approval {
+    gap: 2rem;
+}
+
+.adopt {
+    color: #ffd700;
+}
+
+.adopted {
+    background-image: radial-gradient(#ff0000, #0000ff, #ff0000, #008000);
+    width: 100vw;
+    height: 100vh;
+}
+
+.create {
+    width: 6rem;
+    color: #ffd700;
+    background-color: #0000ff;
+}

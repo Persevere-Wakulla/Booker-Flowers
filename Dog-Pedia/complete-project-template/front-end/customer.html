@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dogs.css ">
+  <title>Booker's Dog-Pedia</title>
+</head>
+
+<body class="custbody">
+  <article class="traveler">
+    <a href="./home.html" class="route">Home</a>
+    <a href="./customer.html" class="route">Sign-In</a>
+    <a href="./dog-pedia.html" class="route">Dog Breeds</a>
+    <a href="./donate.html" class="route">Donate</a>
+    <a href="./knowledge.html" class="route">Dog Knowledge</a>
+    <a href="./recipe.html" class="route">Recipes</a>
+    <a href="./adopt.html" class="route">Adoption</a>
+    <a href="./products.html" class="route">Products</a>
+  </article>
+  <nav id="nav"></nav>
+  <h1 class="bdp">🖊️📖Customers List📖🖊️</h1>
+
+  <div class="infoAddCon traveler">
+    <h2 class="addIn">Add In's:</h2>
+    <input type="text" class="enquirer" id="password" placeholder="create password">
+    <input type="text" class="enquirer" id="fname" placeholder="Enter First Name">
+    <input type="text" class="enquirer" id="lname" placeholder="Enter Last Name">
+    <input type="text" class="enquirer" id="address" placeholder="Enter Home Address">
+    <input type="text" class="enquirer" id="creditcardnum" placeholder="Credit Card Number">
+    <button type="submit" id="sub" class="sub">Submit</button>
+  </div>
+
+  <div class="sec-container">
+    <h1 class="eyes">👁️👁️Sign-In👁️👁️</h1>
+    <input type="text" class="sign-in" id="first" placeholder="First Name" required>
+    <input type="text" class="sign-in" id="last" placeholder="Last Name" required>
+    <input type="password" class="sign-in" id="code" placeholder="Password" required>
+    <button type="submit" class="sub" id="logIn">Log-In</button>
+    <button type="button" class="sub" id="logOut">Log-Out</button>
+  </div>
+
+  <div class="display" id="display">
+
+  </div>
+
+
+
+  <!-- <div id="root"></div> -->
+  <script type="module" src="./signin.js"></script>
+</body>
+
+</html>

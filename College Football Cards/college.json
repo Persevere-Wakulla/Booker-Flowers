@@ -1,0 +1,273 @@
+[
+    {
+        "id": 0 ,
+        "name": "Georgia Tech",
+        "image": "src/images/01hvbrnfpacqzrbaqaev.webp"
+    },
+
+    {
+        "id": 1 ,
+        "name": "Georgia",
+        "image": "src/images/51b650c5eecd67ebf45bab73563842ec.jpg"
+    },
+
+    {
+        "id": 2 ,
+        "name": "Georgia Tech",
+        "image": "src/images/78035081_orig.jpg"
+    },
+
+    {
+        "id": 3 ,
+        "name":  "Alabama",
+        "image": "src/images/AlabamaCrimsonTideRiddellSpeedAuthentic1806_1200x1200.webp"
+    },
+
+    {
+        "id": 4,
+        "name": "clemson",
+        "image": "src/images/clemson-football-helmet-on-bench-e1686754507389.webp"
+    },
+
+    {
+        "id": 5,
+        "name": "clemson",
+        "image": "src/images/ClemsonTigersRiddellSpeedAuthenticHelmet01.webp"
+    },
+
+    {
+        "id": 6,
+        "name": "Miami",
+        "image": "src/images/D61A9523_1024x.webp"
+    },
+
+    {
+        "id": 7,
+        "name": "Florida A&M",
+        "image": "src/images/FAMU-helmet-e1591218610310.webp"
+    },
+
+    {
+        "id": 8,
+        "name": "Florida",
+        "image": "src/images/FloridaGatorsRiddellSpeedReplicaHelmetWhitewCircleFGGEdition01.webp"
+    },
+
+    {
+        "id": 9,
+        "name": "Florida",
+        "image":"src/images/FloridaGatorsSpeedFlexAuthentic01_1024x.webp" 
+    },
+
+    {
+        "id": 10,
+        "name": "Florida State",
+        "image": "src/images/FloridaStateSeminolesRiddellSpeedReplicaWhiteHelmetw_RedChromeDecals01.webp"
+    },
+
+    {
+        "id": 11,
+        "name": "Florida State",
+        "image": "src/images/FSU Helmet 1.jpg"
+    },
+
+    {
+        "id": 12 ,
+        "name": "Georgia",
+        "image": "src/images/GeorgiaBulldogs01_936ef67d-49df-4f2a-ab4b-aaefcf703faf_1024x.webp"
+    },
+
+    {
+        "id": 13 ,
+        "name": "North Carolina",
+        "image": "src/images/https___keepingitheel.com_wp-content_uploads_getty-images_2017_07_1279544114.jpg"
+    },
+
+    {
+        "id": 14 ,
+        "name": "Louisiana",
+        "image": "src/images/LSUTigers03_3cd3be94-948a-4f91-a79c-761ca7100e88_1024x.webp"
+    },
+
+    {
+        "id": 15 ,
+        "name":  "Louisiana",
+        "image": "src/images/LSUTigersRiddellSpeedReplicaWhite01.webp"
+    },
+
+    {
+        "id": 16,
+        "name": "Michigan",
+        "image": "src/images/michigan football.jpg"
+    },
+
+    {
+        "id": 17,
+        "name": "North Carolina",
+        "image": "src/images/NorthCarolina2015SpeedAuthentic01_1_1200x1200.webp"
+    },
+
+    {
+        "id": 18,
+        "name": "Notre Dame",
+        "image": "src/images/notre-dame-football-helmet.jpg"
+    },
+
+    {
+        "id": 19,
+        "name": "Notre Dame",
+        "image": "src/images/NotreDameFightingIrishRiddellSpeedflexAuthenticHelmet-HydroFXGold01_1200x1200.webp"
+    },
+
+    {
+        "id": 20,
+        "name": "Florida A&M",
+        "image": "src/images/s-l1200.jpg"
+    },
+
+    {
+        "id": 21,
+        "name": "Michigan",
+        "image": "src/images/USATSI_9777555.webp"
+    },
+   
+    
+    {
+        "id": 22,
+        "name": "Wake Forest",
+        "image": "src/images/818viRIJ2yL._AC_UF1000,1000_QL80_.jpg"
+    },
+
+    {
+        "id": 23,
+        "name": "Tennessee",
+        "image": "src/images/$_1.png"
+    },
+    
+    {
+        "id": 24,
+        "name": "",
+        "image": "src/images/01htz51fzm3x80ddenxc.webp"
+    },
+
+    {
+        "id": 25,
+        "name": "",
+        "image": "src/images/4b47a1e0154a1ec32d7ed57875e7fcfa.jpg"
+    },
+
+    {
+        "id": 26,
+        "name": "",
+        "image": "src/images/6ac18df7b9f661a2e11626d7335e5280.jpg"
+    },
+
+    {
+        "id": 27,
+        "name": "",
+        "image": "src/images/2023-6-tenn-state-vs-norfolk.png"
+    },
+   
+    {
+        "id": 28,
+        "name": "",
+        "image": "src/images/1242928737.jpg"
+    },
+
+    {
+        "id": 29,
+        "name": "",
+        "image": "src/images/36972163273_f7991388f2_b.jpg"
+    },
+
+    {
+        "id": 30,
+        "name": "",
+        "image": "src/images/a38a4920d88eed8b86abb71e4651da17.jpg"
+    },
+
+    {
+        "id": 31,
+        "name": "",
+        "image": "src/images/Arizona-State-Sun-Devils-Helmet.webp"
+    },
+
+    {
+        "id": 32,
+        "name": "",
+        "image": "src/images/D61A0995_1024x.webp"
+    },
+
+    {
+        "id": 33,
+        "name": "",
+        "image": "src/images/de65af056f3a3efb3d71c1a904215667.jpg"
+    },
+
+    {
+        "id": 34,
+        "name": "",
+        "image": "src/images/ea11b77f6b81a89cfc034e0463b9fe3c.jpg"
+    },
+
+    {
+        "id": 35,
+        "name": "",
+        "image": "src/images/fab7a13278c61c0591bd0b962efa3828.jpg"
+    },
+
+    {
+        "id": 36,
+        "name": "",
+        "image": "src/images/MarylandTerrapinsSpeedFlexAuthenticFootballHelmet_900x_edc49abe-422a-44bc-b6e5-215323532eb5_700x700.webp"
+    },
+
+    {
+        "id": 37,
+        "name": "",
+        "image": "src/images/nca&t HELMET.jpg"
+    },
+
+    {
+        "id": 38,
+        "name": "",
+        "image": "src/images/new-lids.jpg"
+    },
+
+    {
+        "id": 39,
+        "name": "",
+        "image": "src/images/pgdcha.jpg"
+    },
+
+    {
+        "id": 40,
+        "name": "",
+        "image": "src/images/s-l500.png"
+    },
+
+    {
+        "id": 41,
+        "name": "",
+        "image": "src/images/USATSI_10418236.webp"
+    },
+
+    {
+        "id": 42,
+        "name": "",
+        "image": "src/images/Bookers Logo.png"
+    },
+
+    {
+        "id": 43,
+        "name": "",
+        "image": "src/images/Helmet.webp"
+    },
+
+    {
+        "id": 44,
+        "name": "",
+        "image": "src/images/Football.webp"
+    }
+
+]

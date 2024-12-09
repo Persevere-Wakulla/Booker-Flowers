@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="game.css">
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+
+
+
+
+
+</head>
+
+<body>
+  <main>
+    <h1>Rock, <span>Paper</span>, Scissors</h1>
+    <p class="import">The dragon wars!</p>
+    <section class="score" id="score">
+
+
+      <!-- section created to keep the score and set above the playing field -->
+
+      <div class="ps" id="player">
+        <p>Pl Sc</p>
+      </div>
+      <div class="cs" id="computer">
+        <p>Cm Sc</p>
+      </div>
+    </section>
+    <p class="score">Score</p>
+
+    <div class="grid1">
+      <button type="submit" class="rock" id="pebble">ROCK<img src="images/icon-rock.svg" alt="icon-rock"></button>
+      <button type="submit" class="paper" id="sheet">PAPER<img src="images/icon-paper.svg" alt="icon-paper"></button>
+      <button type="submit" class="scissors" id="clippers">SCISSORS<img src="images/icon-scissors.svg"
+          alt="icon-scissors"></button>
+    </div>
+    <section class="bottom">
+      <div class="grid3">
+        <p id="ychoice">You Picked</p>
+
+        <p id="cchoice">The Computer Picked</p>
+      </div>
+
+      <div class="play">
+        <button type="submit" class="replay" id="replay"> *Continue*</button>
+      </div>
+      <div class="play">
+        <button type="submit" class="reset" id="reset"> *RESET*</button>
+      </div>
+
+    </section>
+  </main>
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Booker T. Flowers</a>.
+  </div>
+  <script src="game.js"></script>
+</body>
+
+</html>

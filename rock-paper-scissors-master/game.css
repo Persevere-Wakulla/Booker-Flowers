@@ -1,0 +1,178 @@
+/* mobile design */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 3px solid pink; */
+}
+
+/* aligning all text here and setting font size at 26px */
+body {
+    text-align: center;
+    font-size: 26px;
+    width:100%;
+   
+}
+main{
+    width: 70%;
+    height: 50%;
+    margin-left: 185px;
+}
+.score{
+    width: 80%;
+}
+h1{
+    color:blue;
+}
+.import{
+    color: crimson
+}
+span{
+    color:crimson
+}
+
+
+.grid1 {
+    background-image:url(./images/360_F_563967731_wwGn0f1iz8l5Z9eHdZbjJUoaeatXmcbp.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "paper . scissors"
+                        ". rock .";
+
+
+}
+.score{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/360_F_563967731_wwGn0f1iz8l5Z9eHdZbjJUoaeatXmcbp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   color:aliceblue
+}
+.ps{
+    border-color: blue;
+    border-width: 30px;
+    border-style: groove;
+    border-radius: 50%;
+    padding:30px;
+    width: 40%;
+    max-width: fit-content;
+    box-shadow:darkgray;
+}
+.cs{
+    border-color: red;
+    border-width: 30px;
+    border-style: groove;
+    border-radius: 50%;
+    padding: 30px;
+    width: 40%;
+    max-width:fit-content;
+}
+
+
+.rock,
+.paper,
+.scissors {
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    border-width: 20px;
+    border-style: groove;
+    padding: 20%;
+    background-color: aliceblue;
+    /* width: 5%; */
+    text-align: center;
+
+}
+
+.rock {
+    background-image: url(./images/dragon-spitting-fire.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-area: rock;
+    border-color: crimson;
+    /* width: 5%; */
+    color: gold;
+    font-size: 20px;
+}
+
+.paper {
+    background-image: url(./images/collage-maker-21-oct-2022-04-08-pm-1666382917533.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    color: gold;
+    grid-area: paper;
+    border-color: blue;
+    /* width: 5%; */
+    font-size: 20px;
+}
+
+.scissors {
+    background-image: url(./images/chinese-dragon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: gold;
+    grid-area: scissors;
+    border-color: gold;
+    /* width: 5%; */
+    font-size: 20px;
+}
+
+.bottom{
+    background-image: url(./images/360_F_563967731_wwGn0f1iz8l5Z9eHdZbjJUoaeatXmcbp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.replay {
+    background-image: url(./images/chinese-dragon.jpg);
+    background-repeat:repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+    border-width: 10px;
+    border-color: darkgreen;
+    width: 40%;
+    padding:10px;
+    color:gold;
+    font-size: 30px;
+    display: ()
+
+}
+.reset {
+    background-image: url(./images/914796d52a0d2436500f70ab4d94c5b5.jpg);
+    background-repeat:repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+    border-width: 10px;
+    border-color: darkgreen;
+    width: 40%;
+    padding:10px;
+    color:gold;
+    font-size: 30px;
+    display: ()
+
+}
+#ychoice{
+    color:blue;
+    display: none;
+}
+#cchoice{
+    color:crimson;
+    display: none;
+}
+.play{
+    display: flex;
+    justify-content: center;
+}

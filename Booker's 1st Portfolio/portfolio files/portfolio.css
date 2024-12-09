@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Background color darkturquoise add to the body */
+body{
+    border:  rgba(122, 27, 0.836);
+    border-width: 50px;
+    border-style: groove;
+}
+/* focus on aligning text to the center of the page */
+main{
+    max-width: 100%;
+    width:fit-content;
+    text-align: center;
+}
+/* maybe used to position elements if needed not sure if needed yet */
+header{
+    background-color: darkturquoise;
+    text-align: center;
+
+}
+/* inlarging font size for readability */
+p{
+    font-size: 20px;
+}
+.locate{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+/* buttons at the top of page to take user to the projects */
+nav{
+    max-width: 80%;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+/* used to design the nav buttons and  */
+.click{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: black;
+    color: darkturquoise;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .8 );
+    border:  rgba(122, 27, 0.836);
+    border-width: 10px;
+    border-style: groove;
+}
+/* FSU logo head spinning continously this is on container div */
+.spin{
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+
+}
+/* tag applied to make */
+span{
+    background-image: radial-gradient(#ffffff, rgb(0, 206, 209) ,#ffffff);
+    border-radius: 20%;
+    padding: 35px;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .3 );
+    gap: 20px;
+    border:  rgba(122, 27, 0.836);
+    border-width: 10px;
+    border-style: groove;
+   
+}
+/* class applied to the first section */
+h2{
+    margin-bottom: 30px;
+}
+.sec{
+    margin-top: 10%;
+}
+/* FSU logo head spinning continously class of the img itself */
+.logo{
+    border-radius: 25%;
+    width: 50%;
+    margin-bottom: 10%;
+    border:  rgba(122, 27, 0.836);
+    border-width: 50px;
+    border-style: groove;
+    
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-size: 90%;
+}
+.background{
+    background-color: darkturquoise;
+}
+/* Nole Nation project using classes: first and fsu*/
+.first{
+    width:50%;
+    background-image: radial-gradient(#ffffff, rgb(0, 206, 209) ,#ffffff);
+    margin:30px;
+    color:black;
+    font-size: 30px;
+    border-radius: 20%;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .3 );
+    padding: 20px;  border:  rgba(122, 27, 0.836);
+    border-width: 30px;
+    border-style: groove;
+    
+}
+.fsu{
+    width:50%;
+    border-radius: 50%;
+    padding-top: 10px;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .8 );
+}
+/* Kingdom Project project using classes: second and cave */
+.second{
+    width: 50%;
+    background-image: radial-gradient(#ffffff, rgb(0, 206, 209) ,#ffffff);
+    margin:40px;
+    color:black;
+    font-size: 30px;
+    border-radius: 20%;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .3 );
+    padding: 20px;  border:  rgba(122, 27, 0.836);
+    border-width: 30px;
+    border-style: groove;
+}
+.cave{ 
+    width: 30%;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .8 );
+}
+/* guarddog survey project using classes: k-9 and dogs */
+.k-9{
+    width:50%;
+    background-image: radial-gradient(#ffffff, rgb(0, 206, 209) ,#ffffff);
+    margin:30px;
+    color:black;
+    font-size: 30px;
+    border-radius: 20%;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .3 );
+    padding: 20px;  border:  rgba(122, 27, 0.836);
+    border-width: 30px;
+    border-style: groove;
+}
+.dogs{
+    width:30%;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .8 );
+}
+/* Testify project using classes: testify and head */
+.testify{
+    width: 50%;
+    background-image: radial-gradient(#ffffff, rgb(0, 206, 209) ,#ffffff);
+    margin:30px;
+    color:black;
+    font-size: 30px;
+    border-radius: 20%;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .3 );
+    padding: 20px;  border:  rgba(122, 27, 0.836);
+    border-width: 30px;
+    border-style: groove;
+}
+.head{
+    width: 50%;
+    border-radius: 50%;
+    padding-top: 25px;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .8 );
+}
+/* used on spinning logo"s div, div containing osceolas and pocohantas, */
+.flex{
+    display:flex;
+}
+/* used to define and position img's oceolas and pocohantas */
+.renegade{
+    justify-content: center; 
+    width:100%;
+    margin-top:5%;
+    padding: 10%;
+    gap: 40px;
+
+    
+}
+/* class applied to both oceola images to size and make round */
+.spear{
+    border-radius: 20%;
+    width: 90%;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .8 );
+    border:  rgba(122, 27, 0.836);
+    border-width: 50%;
+    border-style: groove;
+}
+/* class applied to the pocohantas image */
+.real{
+    border-radius: 20%;
+    width: 50%;
+}
+/* skill class use on text in introduction paragraph and in What do I do skill section */
+.skill{
+    font-size: 30px;
+    font-weight: bold;
+    max-width: fit-content;
+    text-align: center;
+    margin-bottom: 6px;
+    padding: 5%;
+
+}
+/* used to re-align the skill listed in the what I do section  */
+.place{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+
+
+}
+section{
+    text-align: center;
+}
+.show{
+    color: darkgreen;
+    font-size: 25px;
+}
+a{
+    font-size: 30px;
+}
+.start{
+    width: 50%;
+    background-image: radial-gradient(#ffffff, rgb(0, 206, 209) ,#ffffff);
+    margin:30px;
+    color:black;
+    font-size: 30px;
+    border-radius: 20%;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .3 );
+    padding: 20px;  border:  rgba(122, 27, 0.836);
+    border-width: 30px;
+    border-style: groove;
+}
+.blackmouthcur{
+    width:40%;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .8 );
+}
+
+/* media quiery for desktop */
+@media(min-width: 650px){
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+    span{
+        font-size: 40px;
+    }
+   .logo{
+     width: 50%;
+     margin-top: 10%; 
+  } 
+  .spear{
+    width: 100%;
+  }
+  .real{
+    width: 80%;
+    border:  rgba(122, 27, 0.836);
+    border-width: 50px;
+    border-style: groove;
+  }
+    /* .projects{
+        display: flex;
+        flex-direction: row;
+    } */
+    #sem{
+        width: 24%;
+    }
+    #med{
+        width: 24%;
+    }
+    #maw{
+        width: 24%;
+    }
+    #say{
+        width: 24%;
+    }
+
+ 
+  
+
+}
+
+
+/* animation for the logo head to spin */
+
+
+@keyframes logo{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(360%);
+    }
+}
+.logo{
+    animation-name: logo;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    box-shadow: 0 4px 6px hsla(0, 0%, 0%, .8 );
+}
+/* animation for the Osceolas */
+@keyframes spear{
+    0%{
+        transform:scale(1) ;
+    }
+    100%{
+        transform: scale(2);
+    }
+    0%{
+        transform:scale(1);
+    }
+}
+.spear{
+    animation: spear 8s linear infinite;
+}
+/* animation for the flashing click me tags */
+@keyframes show{
+    0%{
+        transform:scale(1) ;
+    }
+    100%{
+        transform: scale(1.5);
+    }
+    0%{
+        transform:scale(1);
+    }  
+}
+.show{
+    animation: show 3s linear infinite;
+}

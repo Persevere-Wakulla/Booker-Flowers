@@ -1,0 +1,263 @@
+[
+    {
+        "id": 1,
+        "src": "src/assets/Images/a-grinning-bronze-coloured-dog.jpg",
+        "name": "Tank",
+        "age": 3,
+        "gender": "male",
+        "breed": "Rhodisian Ridgeback mix",
+        "brief": {
+            "knownhistory": "Tank was found shortly after Chirstmas wandering around the interstate. All shots up to date and he is also netured",
+            "medicalneeds": "monthly heartworm medication, monitor for any shortness of breath, exercise but manitain constant attention to breathing and fatigue",
+            "breedneeds": "Lots of open space, constant exercise, may not be suitable for small children"
+        }
+    },
+    {
+        "id": 2,
+        "src": "src/assets/Images/anelale-najera-yjSHO0cPgGI-unsplash.jpg",
+        "name": "Najera",
+        "age": 1.5,
+        "gender": "female",
+        "breed": "Rottweiler",
+        "brief": {
+            "knownhistory": "Najera was found in a home abandon by its owner. All shots up to date and she is also spayed",
+            "medicalneeds": "monthly heartworm medication, monitor for any shortness of breath, exercise but manitain constant attention to breathing and fatigue",
+            "breedneeds": "Love, exercise, and leadership"
+        }
+    },
+    {
+        "id": 3,
+        "src": "src/assets/Images/bernese-mountain-dog-against-black.jpg",
+        "name": "Branard",
+        "age": 2,
+        "gender": "male",
+        "breed": "Bernese Mountain Dog",
+        "brief": {
+            "knownhistory": "Poor thing was found roaming the city scavenging for food. All shots up to date and he is also netured",
+            "medicalneeds": "regular shots, monthly heart worm medication",
+            "breedneeds": "love, affection, exercise and food"
+        }
+    },
+    {
+        "id": 4,
+        "src": "src/assets/Images/dzmitry-dudov-dead__angel_-dL2_aPczMDY-unsplash.jpg",
+        "name": "Tommy",
+        "age": 3,
+        "gender": "male",
+        "breed": "Retriever",
+        "brief": {
+            "knownhistory": "Poor thing was found roaming the city scavenging for food. All shots up to date and he is also netured",
+            "medicalneeds": "regular shots, monthly heart worm medication",
+            "breedneeds": "love, affection, exercise and food"
+        }
+    },
+    {
+        "id": 5,
+        "src": "src/assets/Images/irish-setter-dog-close-up.jpg",
+        "name": "Kimberly",
+        "age": 2.5,
+        "gender": "female",
+        "breed": "Irish Setter Dog",
+        "brief": {
+            "knownhistory": "Poor thing was found roaming the city scavenging for food. All shots up to date and he is also netured",
+            "medicalneeds": "regular shots, monthly heart worm medication",
+            "breedneeds": "love, affection, exercise and food"
+        }
+    },
+    {
+        "id": 6,
+        "src": "src/assets/Images/joel-moysuh-_lJHFKpWDAU-unsplash.jpg",
+        "name": "Joel",
+        "age": 2,
+        "gender": "male",
+        "breed": "Rottweiler",
+        "brief": {
+            "knownhistory": "Poor thing was found roaming the city scavenging for food. All shots up to date and he is also netured",
+            "medicalneeds": "regular shots, monthly heart worm medication",
+            "breedneeds": "love, affection, exercise and food"
+        }
+    },
+    {
+        "id": 7,
+        "src": "src/assets/Images/pexels-adrianna-calvo-21259.jpg",
+        "name": "Adrianna",
+        "age": 3,
+        "gender": "female",
+        "breed": "Australian Terrier",
+        "brief": {
+            "knownhistory": "Poor thing was found roaming the city scavenging for food. All shots up to date and he is also netured",
+            "medicalneeds": "regular shots, monthly heart worm medication",
+            "breedneeds": "love, affection, exercise and food"
+        }
+    },
+    {
+        "id": 8,
+        "src": "src/assets/Images/pexels-alexandru-rotariu-733416.jpg",
+        "name": "Alexander",
+        "age": 1.5,
+        "gender": "male",
+        "breed": "American Staffordshire Terrior mix",
+        "brief": {
+            "knownhistory": "Poor thing was found roaming the city scavenging for food. All shots up to date and he is also netured",
+            "medicalneeds": "regular shots, monthly heart worm medication",
+            "breedneeds": "love, affection, exercise and food"
+        }
+    },
+    {
+        "id": 9,
+        "src": "src/assets/Images/pexels-andrea-g-glasche-5845124.jpg",
+        "name": "Andrea",
+        "age": 2,
+        "gender": "female",
+        "breed": "Rottweiler",
+        "brief": {
+            "knownhistory": "Poor thing was found roaming the city scavenging for food. All shots up to date and he is also netured",
+            "medicalneeds": "regular shots, monthly heart worm medication",
+            "breedneeds": "love, affection, exercise and food"
+        }
+    },
+    {
+        "id": 10,
+        "src": "src/assets/Images/pexels-chevanon-photography-1108099.jpg",
+        "name": "Daisey and Jessy",
+        "age": "two months",
+        "gender": " pair:male and female",
+        "breed": "Retrievers",
+        "brief": {
+            "knownhistory": "Poor things was found abandoned in a car beside the road. All shots up to date and they are also netured and spayed",
+            "medicalneeds": "regular shots, monthly heart worm medication",
+            "breedneeds": "love, affection, exercise and food"
+        }
+    },
+    {
+        "id": 11,
+        "src": "src/assets/Images/pexels-dominic-buccilli-981062.jpg",
+        "name": "Elizabeth",
+        "age": 3.5,
+        "gender": "female",
+        "breed": "West Highland White Terrier",
+        "brief": {
+            "knownhistory": "Poor thing was found roaming the city scavenging for food. All shots up to date and he is also netured",
+            "medicalneeds": "regular shots, monthly heart worm medication",
+            "breedneeds": "love, affection, exercise and food"
+        }
+    },
+    {
+        "id": 12,
+        "src": "src/assets/Images/pexels-gilberto-reyes-825947.jpg",
+        "name": "Russel",
+        "age": 2,
+        "gender": "male",
+        "breed": "American Staffordshire Terrior mix",
+        "brief": {
+            "knownhistory": "Poor thing was found roaming the city scavenging for food. All shots up to date and he is also netured",
+            "medicalneeds": "regular shots, monthly heart worm medication",
+            "breedneeds": "love, affection, exercise and food"
+        }
+    },
+    {
+        "id": 13,
+        "src": "src/assets/Images/pexels-gillian-harrison-4668425.jpg",
+        "name": "Gigi",
+        "age": 3.5,
+        "gender": "female",
+        "breed": "Dachdhund",
+        "brief": {
+            "knownhistory": "Poor thing was found roaming the city scavenging for food. All shots up to date and he is also netured",
+            "medicalneeds": "regular shots, monthly heart worm medication",
+            "breedneeds": "love, affection, exercise and food"
+        }
+    },
+    {
+        "id": 14,
+        "src": "src/assets/Images/pexels-goochie-poochie-grooming-3361722.jpg",
+        "name": "Goochie",
+        "age": 1,
+        "gender": "male",
+        "breed": "Terrier mix",
+        "brief": {
+            "knownhistory": "Poor thing was found roaming the city scavenging for food. All shots up to date and he is also netured",
+            "medicalneeds": "regular shots, monthly heart worm medication",
+            "breedneeds": "love, affection, exercise and food"
+        }
+    },
+    {
+        "id": 15,
+        "src": "src/assets/Images/pexels-pixabay-33287.jpg",
+        "name": "Bo and Luke",
+        "age": 1.5,
+        "gender": "pair:males",
+        "breed": "Hounds",
+        "brief": {
+            "knownhistory": "Poor things were found roaming the city scavenging for food. All shots up to date and they are also netured",
+            "medicalneeds": "regular shots, monthly heart worm medication",
+            "breedneeds": "love, affection, exercise and food"
+        }
+    },
+    {
+        "id": 16,
+        "src": "src/assets/Images/pexels-poodles-doodles-1458925.jpg",
+        "name": "Samantha",
+        "age": "two months",
+        "gender": "female",
+        "breed": "Bernese Mountain Dog",
+        "brief": {
+            "knownhistory": "Poor thing was found roaming the city scavenging for food. All shots up to date and he is also netured",
+            "medicalneeds": "regular shots, monthly heart worm medication",
+            "breedneeds": "love, affection, exercise and food"
+        }
+    },
+    {
+        "id": 17,
+        "src": "src/assets/Images/pexels-teresa-berg-4201727.jpg",
+        "name": "Teresa",
+        "age": 2,
+        "gender": "female",
+        "breed": "Cur",
+        "brief": {
+            "knownhistory": "Poor thing was found roaming the city scavenging for food. All shots up to date and he is also netured",
+            "medicalneeds": "regular shots, monthly heart worm medication",
+            "breedneeds": "love, affection, exercise and food"
+        }
+    },
+    {
+        "id": 18,
+        "src": "src/assets/Images/pocket-bully-dog.jpg",
+        "name": "Sheva",
+        "age": 5,
+        "gender": "female",
+        "breed": "Bully",
+        "brief": {
+            "knownhistory": "Poor thing was found roaming the city scavenging for food. All shots up to date and he is also netured",
+            "medicalneeds": "regular shots, monthly heart worm medication",
+            "breedneeds": "love, affection, exercise and food"
+        }
+    },
+    {
+        "id": 19,
+        "src": "src/assets/Images/00O0O_88QUfE3sASY_0t20CI_600x450.jpg",
+        "name": "Smokey",
+        "age": 2.5,
+        "gender": "male",
+        "breed": "Cane Corso",
+        "brief": {
+            "knownhistory": "Poor thing was found roaming the city scavenging for food. All shots up to date and he is also netured",
+            "medicalneeds": "regular shots, monthly heart worm medication",
+            "breedneeds": "love, affection, exercise and food"
+        }
+    },
+    {
+        "id": 20,
+        "src": "src/assets/Images/ralph-ravi-kayden-bjU0FvDuHJA-unsplash.jpg",
+        "name": "Ralph",
+        "age": "2",
+        "gender": "male",
+        "breed": "Spaniel",
+        "brief": {
+            "knownhistory": "Poor thing was found roaming the city scavenging for food. All shots up to date and he is also netured",
+            "medicalneeds": "regular shots, monthly heart worm medication",
+            "breedneeds": "love, affection, exercise and food"
+        }
+    }
+
+]
